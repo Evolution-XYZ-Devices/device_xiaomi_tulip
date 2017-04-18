@@ -73,5 +73,5 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     TulipWifiOverlay
 
-# Inherit proprietary files
-$(call inherit-product-if-exists, vendor/xiaomi/twolip/twolip-vendor.mk)
+# Inherit the proprietary files
+$(call inherit-product, vendor/xiaomi/twolip/twolip-vendor.mk)
