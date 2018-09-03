@@ -1,3 +1,6 @@
 # Charger
 ro.charger.disable_init_blank=true
 ro.charger.enable_suspend=true
+
+# Google Assistant
+ro.opa.eligible_device=true
