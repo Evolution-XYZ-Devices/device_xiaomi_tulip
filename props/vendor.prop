@@ -155,6 +155,9 @@ ro.vendor.display.ad=1
 ro.vendor.display.ad.sdr_calib_data=/vendor/etc/ad_calib.cfg
 ro.vendor.display.sensortype=2
 
+# Enable QC2 bufferqueue block-pool
+vendor.qc2.use.bqpool=1
+
 # Fling
 ro.min.fling_velocity=70 
 ro.max.fling_velocity=21000
