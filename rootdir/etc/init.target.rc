@@ -72,7 +72,6 @@ on fs
 on post-fs
     start vendor.qseecomd
     wait_for_prop vendor.sys.listeners.registered true
-    write /dev/ipa 1
 
 on init
     write /sys/module/qpnp_rtc/parameters/poweron_alarm 1
@@ -90,6 +89,9 @@ on post-fs-data
     mkdir /data/tombstones/lpass 0771 system system
     mkdir /data/tombstones/wcnss 0771 system system
     mkdir /data/tombstones/dsps 0771 system system
+
+on early-boot
+    write /dev/ipa 1
 
 on boot
     start vendor.rmt_storage
