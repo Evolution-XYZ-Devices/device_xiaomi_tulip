@@ -83,6 +83,9 @@ vendor.audio.adm.buffering.ms=6
 vendor.qcom.bluetooth.soc=cherokee
 persist.vendor.bt.a2dp_offload_cap=sbc-aptx-aptxhd-aac
 
+# Boot
+sys.vendor.shutdown.waittime=500
+
 # Camera
 persist.vendor.bokeh.switch.lux=290
 persist.vendor.camera.HAL3.enabled=1
