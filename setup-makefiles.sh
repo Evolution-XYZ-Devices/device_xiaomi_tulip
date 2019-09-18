@@ -8,7 +8,7 @@
 
 set -e
 
-export DEVICE=tulip
+export DEVICE=twolip
 export VENDOR=xiaomi
 
 # Load extract_utils and do some sanity checks

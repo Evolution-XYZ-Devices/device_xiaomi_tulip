@@ -9,7 +9,10 @@ BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 BUILD_BROKEN_ENFORCE_SYSPROP_OWNER := true
 BUILD_BROKEN_INCORRECT_PARTITION_IMAGES := true
 
-DEVICE_PATH := device/xiaomi/tulip
+DEVICE_PATH := device/xiaomi/twolip
+
+# Assert
+TARGET_OTA_ASSERT_DEVICE := tulip,twolip
 
 # Asserts
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
@@ -204,4 +207,4 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit the proprietary files
-include vendor/xiaomi/tulip/BoardConfigVendor.mk
+include vendor/xiaomi/twolip/BoardConfigVendor.mk
