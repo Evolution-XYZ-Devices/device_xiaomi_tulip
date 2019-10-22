@@ -23,3 +23,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Face Unlock
 PRODUCT_PROPERTY_OVERRIDES += \
    ro.face.moto_unlock_service.cam_id=5
+
+# Mobile Network Settings
+PRODUCT_PROPERTY_OVERRIDES += \
+   persist.sys.fflag.override.settings_network_and_internet_v2=true
