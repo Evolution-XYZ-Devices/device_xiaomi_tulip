@@ -206,6 +206,10 @@ PRODUCT_RETROFIT_DYNAMIC_PARTITIONS := true
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/lily_experience.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/lily_experience.xml
 
+# Fastbootd
+PRODUCT_PACKAGES += \
+    fastbootd
+
 # FM
 PRODUCT_PACKAGES += \
     FM2 \

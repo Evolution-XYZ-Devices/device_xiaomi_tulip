@@ -159,6 +159,9 @@ ro.vendor.display.sensortype=2
 # Enable QC2 bufferqueue block-pool
 vendor.qc2.use.bqpool=1
 
+# Fastbootd
+ro.fastbootd.available=true
+
 # Fling
 ro.min.fling_velocity=70 
 ro.max.fling_velocity=21000
