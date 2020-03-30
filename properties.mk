@@ -19,3 +19,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
    ro.sf.lcd_density=440
+
+# Face Unlock
+PRODUCT_PROPERTY_OVERRIDES += \
+   ro.face.moto_unlock_service.cam_id=5
