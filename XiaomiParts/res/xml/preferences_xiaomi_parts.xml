@@ -42,6 +42,13 @@
                 android:targetClass="org.lineageos.settings.kcal.KCalSettingsActivity"
                 android:targetPackage="org.lineageos.settings.kcal" />
         </Preference>
+
+        <SwitchPreference
+            android:key="fps_info"
+            android:persistent="true"
+            android:summary="@string/fps_info_summary"
+            android:title="@string/fps_info_title"
+            android:icon="@drawable/ic_fps_info" />
     </PreferenceCategory>
 
     <PreferenceCategory

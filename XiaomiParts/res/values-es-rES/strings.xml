@@ -107,4 +107,8 @@
     <string name="edit_value">Selecciona un valor nuevo</string>
     <string name="default_value">Valor por defecto</string>
     <string name="edit_hint">Valor entre %1$d y %2$d</string>
+
+    <!-- FPS Info -->
+    <string name="fps_info_title">Contador de FPS</string>
+    <string name="fps_info_summary">Muestra una superposición con los fotogramas por segundo</string>
 </resources>

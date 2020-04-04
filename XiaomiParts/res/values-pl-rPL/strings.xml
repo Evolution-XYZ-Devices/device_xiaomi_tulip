@@ -107,4 +107,8 @@
     <string name="edit_value">Wybierz nową wartość</string>
     <string name="default_value">Domyślna wartość</string>
     <string name="edit_hint">Wartość pomiędzy %1$d a %2$d</string>
+
+    <!-- FPS Info -->
+    <string name="fps_info_title">Nakładka informacyjna FPS</string>
+    <string name="fps_info_summary">Pokaż nakładkę z aktualnymi klatkami na sekundę</string>
 </resources>

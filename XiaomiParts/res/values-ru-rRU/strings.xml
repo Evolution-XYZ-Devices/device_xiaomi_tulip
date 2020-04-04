@@ -107,4 +107,8 @@
     <string name="edit_value">Выбрать новое значение</string>
     <string name="default_value">Стандартное значение</string>
     <string name="edit_hint">Значения между %1$d и %2$d</string>
+
+    <!-- FPS Info -->
+    <string name="fps_info_title">Наложение информации о FPS</string>
+    <string name="fps_info_summary">Показать наложение с текущими кадрами в секунду</string>
 </resources>

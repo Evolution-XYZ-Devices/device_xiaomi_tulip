@@ -19,6 +19,8 @@ package org.lineageos.settings.device;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import androidx.preference.PreferenceManager;
 import android.provider.Settings;
 
 import org.lineageos.settings.device.kcal.Utils;
@@ -30,6 +32,8 @@ public class BootReceiver extends BroadcastReceiver implements Utils {
     public void onReceive(Context context, Intent intent) {
 
         org.lineageos.settings.device.doze.DozeUtils.checkDozeService(context);
+
+        SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(context);
 
         if (Settings.Secure.getInt(context.getContentResolver(), PREF_ENABLED, 0) == 1) {
             FileUtils.setValue(KCAL_ENABLE, Settings.Secure.getInt(context.getContentResolver(),
@@ -61,5 +65,10 @@ public class BootReceiver extends BroadcastReceiver implements Utils {
                 context.getContentResolver(), DeviceSettings.PREF_VIBRATION_STRENGTH, 80) / 100.0 * (DeviceSettings.MAX_VIBRATION - DeviceSettings.MIN_VIBRATION) + DeviceSettings.MIN_VIBRATION);
         FileUtils.setValue(DeviceSettings.USB_FASTCHARGE_PATH, Settings.Secure.getInt(context.getContentResolver(),
                 DeviceSettings.PREF_USB_FASTCHARGE, 0));
+
+        boolean enabled = sharedPrefs.getBoolean(DeviceSettings.PREF_KEY_FPS_INFO, false);
+        if (enabled) {
+            context.startService(new Intent(context, FPSInfoService.class));
+        }
     }
 }

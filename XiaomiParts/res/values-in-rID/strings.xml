@@ -107,4 +107,8 @@
     <string name="edit_value">Pilih Nilai baru</string>
     <string name="default_value">Nilai bawaan</string>
     <string name="edit_hint">Nilai diantara %1$d dan %2$d</string>
+
+    <!-- FPS Info -->
+    <string name="fps_info_title">Info FPS hamparan</string>
+    <string name="fps_info_summary">Tampilkan overlay dengan frame saat ini per detik</string>
 </resources>
