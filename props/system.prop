@@ -4,6 +4,9 @@ vendor.bluetooth.soc=cherokee
 # CNE
 persist.vendor.cne.feature=1
 
+# Dalvik
+dalvik.vm.dex2oat64.enabled=true
+
 # Netflix
 ro.netflix.bsp_rev=Q660-13149-1
 
