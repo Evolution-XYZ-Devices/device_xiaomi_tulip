@@ -27,6 +27,10 @@ TARGET_BOOT_ANIMATION_RES_EVO := true
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_WIFI_EXT := false
 
+EVO_DONATE_URL := https://www.paypal.me/Dobsgw
+EVO_MAINTAINER := "Dobsgw"
+EVO_SUPPORT_URL := https://t.me/EvolutionXTwolip
+
 # Inherit from twolip device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
