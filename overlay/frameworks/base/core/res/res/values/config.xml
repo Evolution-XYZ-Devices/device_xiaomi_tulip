@@ -161,4 +161,7 @@
         C-297.156539,0.363960295 -299.941007,0 -303,0
         Z
     </string>
+
+    <!-- Whether device ignores the RSSNR signal implementation -->
+    <bool name="config_ignoreRssnrSignalLevel">true</bool>
 </resources>
