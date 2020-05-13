@@ -1,0 +1,18 @@
+[
+  {
+    "repository"  : "device_xiaomi_sdm660-common_twolip",
+    "target_path" : "device/xiaomi/sdm660-common",
+    "branch"      : "ten"
+  },
+  {
+    "remote"      : "gitlab",
+    "repository"  : "the-muppets/proprietary_vendor_xiaomi",
+    "target_path" : "vendor/xiaomi",
+    "branch"      : "lineage-17.1"
+  },
+  {
+    "repository"  : "LineageOS/android_kernel_xiaomi_sdm660",
+    "target_path" : "kernel/xiaomi/sdm660",
+    "branch"      : "lineage-17.1"
+  }
+]
