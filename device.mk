@@ -58,10 +58,6 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
 
-#GCam Go
-PRODUCT_PACKAGES += \
-    gcam
-
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
