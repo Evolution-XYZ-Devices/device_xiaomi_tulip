@@ -170,4 +170,14 @@
 
     <!-- If face auth sends the user directly to home/last open app, or stays on keyguard -->
     <bool name="config_faceAuthDismissesKeyguard">true</bool>
+
+    <!-- Whether device has a physical display cutout -->
+    <bool name="config_physicalDisplayCutout">true</bool>
+
+    <!-- Whether the display cutout region of the main built-in display should be forced to 
+    black in software (to avoid aliasing or emulate a cutout that is not physically existent) -->
+    <bool name="config_fillMainBuiltInDisplayCutout">true</bool>
+
+    <!-- Whether device has a big physical display cutout -->
+    <bool name="config_bigPhysicalDisplayCutout">true</bool>
 </resources>
