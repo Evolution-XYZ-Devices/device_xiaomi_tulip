@@ -3,3 +3,9 @@ type public_adsprpcd_file, file_type;
 type sysfs_fingerprint, fs_type, sysfs_type;
 type sysfs_touchpanel, fs_type, sysfs_type;
 type thermal_data_file, file_type, data_file_type;
+
+# USB Fast Charge
+type sysfs_usb_fastcharge, sysfs_type, fs_type;
+
+# KCAL
+type kcal_sysfs, sysfs_type, fs_type;

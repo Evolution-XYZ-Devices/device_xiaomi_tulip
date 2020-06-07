@@ -1,3 +1,10 @@
 # Vibrator
 allow system_app sysfs_vibrator:dir search;
 allow system_app sysfs_vibrator:file rw_file_perms;
+
+# USB Fast Charge
+allow system_app sysfs_usb_fastcharge:file { open read getattr write };
+
+# KCAL
+allow system_app kcal_sysfs:dir search;
+allow system_app kcal_sysfs:file rw_file_perms;
