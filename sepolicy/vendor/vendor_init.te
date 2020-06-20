@@ -11,3 +11,6 @@ set_prop(vendor_init, camera_prop)
 set_prop(vendor_init, vendor_power_prop)
 
 allow vendor_init proc:file w_file_perms;
+
+# Allow vendor_init to write to /dev/blkio
+allow vendor_init blkio:file w_file_perms;
