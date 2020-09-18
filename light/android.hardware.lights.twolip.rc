@@ -1,0 +1,32 @@
+on boot
+    # Backlight
+    chown system system /sys/class/backlight/panel0-backlight/brightness
+    chown system system /sys/class/backlight/panel0-backlight/max_brightness
+    chmod 0644 /sys/class/backlight/panel0-backlight/brightness
+    chmod 0644 /sys/class/backlight/panel0-backlight/max_brightness
+
+    # Flash
+    chmod 0660 /sys/class/leds/led:flash_0/brightness
+    chmod 0660 /sys/class/leds/led:flash_1/brightness
+    chmod 0660 /sys/class/leds/led:flash_2/brightness
+    chmod 0660 /sys/class/leds/led:torch_0/brightness
+    chmod 0660 /sys/class/leds/led:torch_1/brightness
+    chmod 0660 /sys/class/leds/led:torch_2/brightness
+    chmod 0660 /sys/class/leds/led:switch_0/brightness
+    chmod 0660 /sys/class/leds/led:switch_1/brightness
+    chmod 0660 /sys/class/leds/flashlight/brightness
+    chown system system /sys/class/leds/led:flash_0/brightness
+    chown system system /sys/class/leds/led:flash_1/brightness
+    chown system system /sys/class/leds/led:flash_2/brightness
+    chown system system /sys/class/leds/led:torch_0/brightness
+    chown system system /sys/class/leds/led:torch_1/brightness
+    chown system system /sys/class/leds/led:torch_2/brightness
+    chown system system /sys/class/leds/led:switch_0/brightness
+    chown system system /sys/class/leds/led:switch_1/brightness
+    chown system system /sys/class/leds/flashlight/brightness
+
+service vendor.light /vendor/bin/hw/android.hardware.lights-service.twolip
+    class hal
+    user system
+    group system
+    shutdown critical
