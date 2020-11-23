@@ -93,8 +93,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libhdmiedid \
     libhfp \
-    libldacBT_bco \
-    libldacBT_dec \
     libsndmonitor
 
 PRODUCT_COPY_FILES += \
@@ -410,7 +408,6 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.1.vendor \
     android.hardware.secure_element@1.2.vendor \
     rild \
-    libcnefeatureconfig \
     librmnetctl \
     libprotobuf-cpp-full
 
