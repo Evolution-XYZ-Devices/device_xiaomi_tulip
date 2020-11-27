@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+
+    <!-- Kcal settings -->
+    <string name="kcal_settings_title">Display colors</string>
+    <string name="kcal_settings_summary">Adjust the color of your display</string>
+    <string name="kcal_enable_title">Enable display color configuration</string>
+    <string name="kcal_enable_summary">Enables the configuration of the display color for a custom adjustment</string>
+    <string name="red_slider_title">Red</string>
+    <string name="green_slider_title">Green</string>
+    <string name="blue_slider_title">Blue</string>    
+    <string name="kcal_rgb_preference_category_title">RGB</string>
+    <string name="kcal_calibration_preference_category_title">Color calibration</string>
+    <string name="saturation_slider_title">Saturation</string>
+    <string name="reset_default_button_title">Reset to default configuration</string>
+    <string name="reset_default_button_summary">Reset all the configurations of this screen</string>
+    <string name="contrast_slider_title">Contrast</string>
+
+</resources>
