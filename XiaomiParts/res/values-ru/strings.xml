@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2018 The Xiaomi-SDM660 Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="advanced_settings">Xiaomi Parts</string>
+    <string name="advanced_settings_summary">Дополнительные настройки</string>
+
+    <!--  Audio -->
+    <string name="audio_title">Аудио</string>
+
+    <!-- Dirac settings -->
+    <string name="dirac_title">Улучшение звука Mi</string>
+    <string name="dirac_summary">Оптимизируйте качество звука</string>
+    <string name="dirac_headset_title">Выбрать тип наушников</string>
+    <string name="dirac_preset_title">Выбрать шаблон</string>
+
+    <!-- Dirac settings: Headset types -->
+    <string name="dirac_headset_default">По умолчанию</string>
+    <string name="dirac_headset_general">Обычные</string>
+    <string name="dirac_headset_general_inear">Обычные внутриканальные</string>
+
+    <!-- Dirac settings: Equalizer presets -->
+    <string name="dirac_preset_default">По умолчанию</string>
+    <string name="dirac_preset_rock">Рок</string>
+    <string name="dirac_preset_jazz">Джаз</string>
+    <string name="dirac_preset_pop">Поп</string>
+    <string name="dirac_preset_classical">Классика</string>
+    <string name="dirac_preset_hiphop">Хип-хоп</string>
+    <string name="dirac_preset_blues">Блюз</string>
+    <string name="dirac_preset_electronic">Электроника</string>
+    <string name="dirac_preset_country">Кантри</string>
+    <string name="dirac_preset_dance">Танцевальные</string>
+    <string name="dirac_preset_metal">Метал</string>
+
+    <!-- Display -->
+    <string name="display_title">Экран</string>
+
+    <!-- KCAL -->
+    <string name="device_kcal_title">Калибровка цветов экрана</string>
+    <string name="advanced_settings_kcal">Настройте отображение цветов по вашему вкусу</string>
+    <string name="cat_colormanagement">Настройки цвета</string>
+    <string name="cat_calibration">Калибровка экрана</string>
+
+    <string name="kcal_enabled">Вкл</string>
+    <string name="kcal_disabled">Выкл</string>
+    <string name="set_on_boot">Вкл при загрузке</string>
+    <string name="color_red">Красный</string>
+    <string name="color_green">Зеленый</string>
+    <string name="color_blue">Синий</string>
+    <string name="color_minimum">Минимум</string>
+    <string name="saturation">Насыщенность</string>
+    <string name="value">Значение</string>
+    <string name="contrast">Контраст</string>
+    <string name="hue">Оттенок</string>
+    <string name="grayscale">Отобразить в чёрно-белом</string>
+
+    <!-- Presets For KCAL -->
+    <string name="presets_dialog_title">Выбрать шаблон</string>
+    <string name="preset_default">По умолчанию</string>
+    <string name="preset_version_1">1 вариант</string>
+    <string name="preset_version_2">2 вариант</string>
+    <string name="preset_version_3">3 вариант</string>
+    <string name="preset_triluminous">Трилуминозный</string>
+    <string name="preset_deep_black_white">Глубокий черный и белый цвет</string>
+    <string name="preset_deep_natural">Очень натуральные цвета</string>
+    <string name="preset_cool_amoled">Хороший Amoled</string>
+    <string name="preset_extreme_amoled">Экстрим-Amoled</string>
+    <string name="preset_warm_amoled">Тёплый Amoled</string>
+
+    <string name="kcal_reset">Сбросить</string>
+
+    <!-- Speaker -->
+    <string name="speaker_category">Динамик</string>
+
+    <!-- Clear Speaker -->
+    <string name="clear_speaker_title">Очистка динамика</string>
+    <string name="clear_speaker_summary">Воспроизвести 30-и секундный звук для очистки динамика</string>
+    <string name="clear_speaker_description">Включите этот параметр 1-2 раз, если динамик немного загрязнен. Также поставьте звук на максимальную громкость.\n\nЕсли динамик сильно загрязнен, запустите этот параметр 2-5 раз и потрясите телефон. Динамик должен смотреть вниз</string>
+
+    <!-- USB fastcharge -->
+    <string name="usb_fastcharge_title">USB быстрая зарядка</string>
+    <string name="fastcharge_title">Включить быструю зарядку по USB</string>
+    <string name="fastcharge_summary">Заряжать вплоть до 900mA, когда телефон подключен через порт USB 3.0</string>
+
+    <!-- Vibration -->
+    <string name="vibration_title">Контроль вибрации</string>
+    <string name="vibration_strength_title">Сила</string>
+
+    <!-- CustomSeekBarPreference -->
+    <string name="edit_value">Выбрать новое значение</string>
+    <string name="default_value">Стандартное значение</string>
+    <string name="edit_hint">Значения между %1$d и %2$d</string>
+</resources>
