@@ -184,6 +184,9 @@ persist.dbg.vt_avail_ovr=1
 persist.dbg.wfc_avail_ovr=1
 
 # Media
+debug.media.transcoding.codec_max_operating_rate_720P=480
+debug.media.transcoding.codec_max_operating_rate_1080P=240
+debug.media.transcoding.codec_max_operating_rate_4k=120
 debug.stagefright.omx_default_rank.sw-audio=1
 debug.stagefright.omx_default_rank=0
 media.stagefright.thumbnail.prefer_hw_codecs=true
