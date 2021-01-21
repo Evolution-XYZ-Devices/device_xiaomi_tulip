@@ -948,7 +948,6 @@ vendor/lib/hw/keystore.sdm660.so
 vendor/lib64/hw/keystore.sdm660.so
 
 # Listen - from jasmine
-vendor/lib/hw/sound_trigger.primary.sdm660.so|8bae35ddf095f33543413bec940f538a7fada63b
 vendor/lib/libadpcmdec.so|6e9be864a1380e099a2d68237e13a724f3143314
 vendor/lib/libgcs-calwrapper.so|a7ee01ad02f69c182b9f28cb1c10b105ec8d607f
 vendor/lib/libgcs-ipc.so|d2a33d059bc02c6f635c350f0c3d524a0216557d
