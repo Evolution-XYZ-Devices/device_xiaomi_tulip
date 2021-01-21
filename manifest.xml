@@ -1,5 +1,11 @@
 <manifest version="2.0" type="device" target-level="3">
     <hal format="hidl">
+        <name>android.frameworks.sensorservice</name> 
+        <transport>hwbinder</transport>
+        <fqname>@1.0::ISensors/default</fqname> 
+        <fqname>@1.0::ISensorManager/default</fqname>
+    </hal>
+    <hal format="hidl">
         <name>android.hardware.audio</name>
         <transport>hwbinder</transport>
         <fqname>@5.0::IDevicesFactory/default</fqname>
