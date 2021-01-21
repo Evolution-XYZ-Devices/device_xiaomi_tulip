@@ -78,7 +78,6 @@ TARGET_SCREEN_DENSITY := 440
 TARGET_USES_HWC2 := true
 TARGET_USES_GRALLOC1 := true
 TARGET_USES_ION := true
-OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 
 # DT2W
 TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"

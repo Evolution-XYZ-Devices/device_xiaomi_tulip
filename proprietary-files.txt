@@ -866,8 +866,6 @@ vendor/lib/libc2d30_bltlib.so|0ecaba6ce84154d88c0df57a235609ecd98d6f6d
 vendor/lib/libgsl.so|7b5c45f9015b6c369d7e00ce4c747bd8400d112c
 vendor/lib/libllvm-glnext.so|609928c7d06e2c5f0c1bec801e71d5b3cea67218
 vendor/lib/libllvm-qcom.so|d0758cdf45e32d41d7ccd8b18b853b35eecac281
-vendor/lib/librs_adreno.so|81ac0aaaf36c049113e1dec7640d962a07e07f7f
-vendor/lib/librs_adreno_sha1.so|f4665879e0d9ef4e448f645f2b579b1ba6dc2eb5
 vendor/lib64/egl/eglSubDriverAndroid.so|cd76c111254eaf809defcd40d4a1d6aa0f140c0e
 vendor/lib64/egl/libEGL_adreno.so|35c319854e143d7bcfacea9c499897ca846f1b3a
 vendor/lib64/egl/libGLESv1_CM_adreno.so|603accd676f859523e22f5043be216a8d4a8a937
@@ -885,8 +883,6 @@ vendor/lib64/libc2d30_bltlib.so|254b4b60fe1795188628ab4d156b9656af79c776
 vendor/lib64/libgsl.so|f3916703f7b41cdff0e28666da86210522a63d50
 vendor/lib64/libllvm-glnext.so|263b552eb1572d248ef902a6bbd8f027d6feec9b
 vendor/lib64/libllvm-qcom.so|2643fe03a65fed6187e9e9104c4dff484ad7e095
-vendor/lib64/librs_adreno.so|c84431c31efd21b30d95ebe9ea3dc4792f0de4ac
-vendor/lib64/librs_adreno_sha1.so|06535b728885e2bf161b1cca48e8e5928925310a
 
 # Graphics (HDR) - from jasmine
 vendor/lib/libhdr_tm.so|8d253c28c1fd976ac009088e36d483c16566f9a5
