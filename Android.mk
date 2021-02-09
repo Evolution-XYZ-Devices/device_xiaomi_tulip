@@ -106,5 +106,13 @@ $(IMS_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
 
 ALL_DEFAULT_INSTALLED_MODULES += $(IMS_SYMLINKS)
 
+METADATA_SYMLINK := $(TARGET_ROOT_OUT)/metadata
+$(METADATA_SYMLINK): $(LOCAL_INSTALLED_MODULE)
+	@echo "Creating $@"
+	@mkdir -p $(TARGET_ROOT_OUT)/metadata
+	$(hide) ln -sf /data/vendor/metadata_apex $@/apex
+
+ALL_DEFAULT_INSTALLED_MODULES += $(METADATA_SYMLINK)
+
 include $(call all-makefiles-under,$(LOCAL_PATH))
 endif
