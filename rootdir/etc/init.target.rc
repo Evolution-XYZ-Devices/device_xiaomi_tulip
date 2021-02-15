@@ -69,7 +69,6 @@ on post-fs-data
 
 on boot
     start vendor.rmt_storage
-    start rfs_access
     write /dev/cpuset/top-app/cpus 0-7
     write /dev/cpuset/foreground/cpus 0-7
     write /dev/cpuset/foreground/boost/cpus 0-7
