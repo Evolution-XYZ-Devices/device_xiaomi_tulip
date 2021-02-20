@@ -67,9 +67,11 @@
       "Path": "/sys/class/kgsl/kgsl-3d0/devfreq/min_freq",
       "Values": [
         "647000000",
+        "588000000",
         "465000000",
         "370000000",
-        "266000000"
+        "266000000",
+        "160000000"
       ],
       "ResetOnInit": true
     },
