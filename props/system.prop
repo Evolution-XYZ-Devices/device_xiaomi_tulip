@@ -13,6 +13,9 @@ ro.sys.fw.dex2oat_thread_count=8
 # Netflix
 ro.netflix.bsp_rev=Q660-13149-1
 
+# Seamless transfer
+sys.fflag.override.settings_seamless_transfer=true
+
 # Radio
 DEVICE_PROVISIONED=1
 persist.sys.fflag.override.settings_network_and_internet_v2=true
