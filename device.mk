@@ -294,7 +294,7 @@ PRODUCT_PACKAGES += \
 
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
-    RemovePackages
+    RemovePkgs
 
 # Power
 PRODUCT_PACKAGES += \
