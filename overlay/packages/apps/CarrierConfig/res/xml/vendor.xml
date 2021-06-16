@@ -116,6 +116,11 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. -->
         <boolean name="allow_one_way_accept_video_call" value="true"/>
     </carrier_config>
 
+        <!-- Show VoLTE and VoWIFI for all -->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+
     <carrier_config mcc="001" mnc="01">
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="ignore_data_enabled_changed_for_video_calls" value="true"/>
