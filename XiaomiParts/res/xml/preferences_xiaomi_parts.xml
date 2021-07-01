@@ -69,6 +69,11 @@
             android:title="@string/fastcharge_title"
             android:icon="@drawable/ic_usb_fastcharge"
             android:summary="@string/fastcharge_summary" />
+
+        <com.android.settingslib.widget.FooterPreference
+            android:key="footer_preference"
+            android:title="@string/fastcharge_footer"
+            android:selectable="false" />
     </PreferenceCategory>
 
     <PreferenceCategory

@@ -72,6 +72,7 @@
     <string name="usb_fastcharge_title">USB Fastcharge</string>
     <string name="fastcharge_title">Enable USB Fastcharge</string>
     <string name="fastcharge_summary">Charge upto 900mA when connected to a computer via USB 3.0 port</string>
+    <string name="fastcharge_footer">Fastcharging may drain your battery faster. Use at your own risk.</string>
 
     <!-- Vibration -->
     <string name="vibration_title">Haptic feedback</string>
