@@ -28,7 +28,9 @@ import android.os.UserHandle;
 import androidx.preference.PreferenceManager;
 import android.provider.Settings;
 import android.util.Log;
+import android.hardware.display.AmbientDisplayConfiguration;
 
+import static android.provider.Settings.Secure.DOZE_ALWAYS_ON;
 import static android.provider.Settings.Secure.DOZE_ENABLED;
 
 public final class Utils {
@@ -38,6 +40,9 @@ public final class Utils {
 
     private static final String DOZE_INTENT = "com.android.systemui.doze.pulse";
 
+    protected static final String ALWAYS_ON_DISPLAY = "always_on_display";
+
+    protected static final String CATEG_PICKUP_SENSOR = "pickup_sensor";
     protected static final String CATEG_PROX_SENSOR = "proximity_sensor";
 
     protected static final String GESTURE_PICK_UP_KEY = "gesture_pick_up";
@@ -58,7 +63,7 @@ public final class Utils {
     }
 
     protected static void checkDozeService(Context context) {
-        if (isDozeEnabled(context) && sensorsEnabled(context)) {
+        if (isDozeEnabled(context) && !isAlwaysOnEnabled(context) && sensorsEnabled(context)) {
             startService(context);
         } else {
             stopService(context);
@@ -96,6 +101,20 @@ public final class Utils {
             context.sendBroadcastAsUser(
                     new Intent(DOZE_INTENT), new UserHandle(UserHandle.USER_CURRENT));
         }
+    }
+
+    protected static boolean enableAlwaysOn(Context context, boolean enable) {
+        return Settings.Secure.putIntForUser(context.getContentResolver(),
+                DOZE_ALWAYS_ON, enable ? 1 : 0, UserHandle.USER_CURRENT);
+    }
+
+    protected static boolean isAlwaysOnEnabled(Context context) {
+        return Settings.Secure.getIntForUser(context.getContentResolver(),
+                DOZE_ALWAYS_ON, 1, UserHandle.USER_CURRENT) != 0;
+    }
+
+    protected static boolean alwaysOnDisplayAvailable(Context context) {
+        return new AmbientDisplayConfiguration(context).alwaysOnAvailable();
     }
 
     protected static void enableGesture(Context context, String gesture, boolean enable) {
