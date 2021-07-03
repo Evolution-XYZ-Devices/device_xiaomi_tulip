@@ -89,10 +89,5 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
-        <service
-            android:name=".DiracService"
-            android:enabled="true"
-            android:stopWithTask="false" />
     </application>
 </manifest>

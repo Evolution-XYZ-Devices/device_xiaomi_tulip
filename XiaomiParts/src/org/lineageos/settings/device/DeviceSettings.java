@@ -35,10 +35,6 @@ import java.lang.Math.*;
 public class DeviceSettings extends PreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
-    private static final String PREF_ENABLE_DIRAC = "dirac_enabled";
-    private static final String PREF_HEADSET = "dirac_headset_pref";
-    private static final String PREF_PRESET = "dirac_preset_pref";
-
     private static final String CATEGORY_DISPLAY = "display";
     private static final String PREF_DEVICE_DOZE = "device_doze";
     private static final String DEVICE_DOZE_PACKAGE_NAME = "org.lineageos.settings.doze";
@@ -65,30 +61,6 @@ public class DeviceSettings extends PreferenceFragment implements
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         setPreferencesFromResource(R.xml.preferences_xiaomi_parts, rootKey);
-
-        boolean enhancerEnabled;
-        try {
-            enhancerEnabled = DiracService.sDiracUtils.isDiracEnabled();
-        } catch (java.lang.NullPointerException e) {
-            getContext().startService(new Intent(getContext(), DiracService.class));
-            try {
-                enhancerEnabled = DiracService.sDiracUtils.isDiracEnabled();
-            } catch (NullPointerException ne) {
-                // Avoid crash
-                ne.printStackTrace();
-                enhancerEnabled = false;
-            }
-        }
-
-        SecureSettingSwitchPreference enableDirac = (SecureSettingSwitchPreference) findPreference(PREF_ENABLE_DIRAC);
-        enableDirac.setOnPreferenceChangeListener(this);
-        enableDirac.setChecked(enhancerEnabled);
-
-        SecureSettingListPreference headsetType = (SecureSettingListPreference) findPreference(PREF_HEADSET);
-        headsetType.setOnPreferenceChangeListener(this);
-
-        SecureSettingListPreference preset = (SecureSettingListPreference) findPreference(PREF_PRESET);
-        preset.setOnPreferenceChangeListener(this);
 
         PreferenceCategory displayCategory = (PreferenceCategory) findPreference(CATEGORY_DISPLAY);
         if (isAppNotInstalled(DEVICE_DOZE_PACKAGE_NAME)) {
@@ -127,33 +99,6 @@ public class DeviceSettings extends PreferenceFragment implements
     public boolean onPreferenceChange(Preference preference, Object value) {
         final String key = preference.getKey();
         switch (key) {
-
-            case PREF_ENABLE_DIRAC:
-                try {
-                    DiracService.sDiracUtils.setEnabled((boolean) value);
-                } catch (java.lang.NullPointerException e) {
-                    getContext().startService(new Intent(getContext(), DiracService.class));
-                    DiracService.sDiracUtils.setEnabled((boolean) value);
-                }
-                break;
-
-            case PREF_HEADSET:
-                try {
-                    DiracService.sDiracUtils.setHeadsetType(Integer.parseInt(value.toString()));
-                } catch (java.lang.NullPointerException e) {
-                    getContext().startService(new Intent(getContext(), DiracService.class));
-                    DiracService.sDiracUtils.setHeadsetType(Integer.parseInt(value.toString()));
-                }
-                break;
-
-            case PREF_PRESET:
-                try {
-                    DiracService.sDiracUtils.setLevel(String.valueOf(value));
-                } catch (java.lang.NullPointerException e) {
-                    getContext().startService(new Intent(getContext(), DiracService.class));
-                    DiracService.sDiracUtils.setLevel(String.valueOf(value));
-                }
-                break;
 
             case PREF_VIBRATION_STRENGTH:
                 double vibrationValue = (int) value / 100.0 * (MAX_VIBRATION - MIN_VIBRATION) + MIN_VIBRATION;
