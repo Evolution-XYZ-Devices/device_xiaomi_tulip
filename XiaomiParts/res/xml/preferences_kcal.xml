@@ -19,6 +19,11 @@
         android:key="kcal_enabled"
         android:title="@string/kcal_disabled" />
 
+        <com.android.settingslib.widget.FooterPreference
+            android:key="footer_preference"
+            android:title="@string/kcal_footer"
+            android:selectable="false" />
+
     <org.lineageos.settings.device.preferences.SecureSettingSwitchPreference
         android:defaultValue="false"
         android:dependency="kcal_enabled"
@@ -96,6 +101,5 @@
             android:dependency="kcal_enabled"
             android:key="grayscale"
             android:title="@string/grayscale" />
-
     </PreferenceCategory>
 </PreferenceScreen>
