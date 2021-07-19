@@ -1,0 +1,3 @@
+# Vibrator
+allow system_app sysfs_vibrator:dir search;
+allow system_app sysfs_vibrator:file rw_file_perms;
