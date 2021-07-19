@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2018 The Xiaomi-SDM660 Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="advanced_settings">Xiaomi Parts</string>
+    <string name="advanced_settings_summary">Configuración adicional</string>
+
+    <!-- Display -->
+    <string name="display_title">Pantalla</string>
+
+    <!-- Ambient Display -->
+    <string name="ambient_display_xiaomi">Xiaomi Doze</string>
+    <string name="advanced_doze_summary">Pantalla Ambiente</string>
+
+    <!-- KCAL -->
+    <string name="device_kcal_title">Calibración del color de la pantalla</string>
+    <string name="advanced_settings_kcal">Calibración del color de la pantalla</string>
+    <string name="cat_colormanagement">Ajustes de color</string>
+    <string name="cat_calibration">Calibración de pantalla</string>
+
+    <string name="kcal_enabled">Encendido</string>
+    <string name="kcal_disabled">Apagado</string>
+    <string name="kcal_footer">Prueba a activar y desactivar la luz nocturna para ver el efecto</string>
+    <string name="set_on_boot">Establecerlo en el inicio</string>
+    <string name="color_red">Rojo</string>
+    <string name="color_green">Verde</string>
+    <string name="color_blue">Azul</string>
+    <string name="color_minimum">Mínimo</string>
+    <string name="saturation">Saturación</string>
+    <string name="value">Valor</string>
+    <string name="contrast">Contraste</string>
+    <string name="hue">Matiz</string>
+    <string name="grayscale">Escala de grises</string>
+
+    <!-- Presets For KCAL -->
+    <string name="presets_dialog_title">Selecciona un preajuste</string>
+    <string name="preset_default">Por defecto</string>
+    <string name="preset_version_1">Versión 1</string>
+    <string name="preset_version_2">Versión 2</string>
+    <string name="preset_version_3">Versión 3</string>
+    <string name="preset_triluminous">Triluminoso</string>
+    <string name="preset_deep_black_white">Negro y blanco profundo</string>
+    <string name="preset_deep_natural">Natural profundo</string>
+    <string name="preset_cool_amoled">Amoled frío</string>
+    <string name="preset_extreme_amoled">Amoled extremo</string>
+    <string name="preset_warm_amoled">Amoled cálido</string>
+    <string name="preset_hybrid_mamba">Mamba híbrido</string>
+
+    <string name="kcal_presets">@string/presets_dialog_title</string>
+    <string name="kcal_reset">Resetear</string>
+
+    <!-- Speaker -->
+    <string name="speaker_category">Altavoz</string>
+
+    <!-- Clear Speaker -->
+    <string name="clear_speaker_title">Limpiar altavoz</string>
+    <string name="clear_speaker_summary">Reproducir un audio de 30 segundos para limpiar el altavoz</string>
+    <string name="clear_speaker_description">Ejecuta esto una o dos veces si notas que tu altavoz está ligeramente bloqueado por el polvo. Pon el volumen al máximo.\n\nSi el altavoz está muy bloqueado ejecútalo de dos a cinco veces mientras agitas el tulip con el altavoz hacia abajo.</string>
+
+    <!-- USB fastcharge -->
+    <string name="usb_fastcharge_title">Carga rápida USB</string>
+    <string name="fastcharge_title">Activar carga rápida USB</string>
+    <string name="fastcharge_summary">Cargar a 900mA cuando se conecta a un ordenador a través de un puerto USB 3.0</string>
+    <string name="fastcharge_footer">La carga rápida USB puede drenar tu batería más rápido. Úsalo bajo tu propio riesgo.</string>
+
+    <!-- Vibration -->
+    <string name="vibration_title">Control de vibración</string>
+    <string name="vibration_strength_title">Fuerza</string>
+
+    <!-- CustomSeekBarPreference -->
+    <string name="edit_value">Selecciona un valor nuevo</string>
+    <string name="default_value">Valor por defecto</string>
+    <string name="edit_hint">Valor entre %1$d y %2$d</string>
+</resources>
