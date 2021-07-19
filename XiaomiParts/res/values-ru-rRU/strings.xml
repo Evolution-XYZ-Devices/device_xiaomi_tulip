@@ -17,35 +17,12 @@
     <string name="advanced_settings">Xiaomi Parts</string>
     <string name="advanced_settings_summary">Дополнительные настройки</string>
 
-    <!--  Audio -->
-    <string name="audio_title">Аудио</string>
-
-    <!-- Dirac settings -->
-    <string name="dirac_title">Улучшение звука Mi</string>
-    <string name="dirac_summary">Оптимизируйте качество звука</string>
-    <string name="dirac_headset_title">Выбрать тип наушников</string>
-    <string name="dirac_preset_title">Выбрать шаблон</string>
-
-    <!-- Dirac settings: Headset types -->
-    <string name="dirac_headset_default">По умолчанию</string>
-    <string name="dirac_headset_general">Обычные</string>
-    <string name="dirac_headset_general_inear">Обычные внутриканальные</string>
-
-    <!-- Dirac settings: Equalizer presets -->
-    <string name="dirac_preset_default">По умолчанию</string>
-    <string name="dirac_preset_rock">Рок</string>
-    <string name="dirac_preset_jazz">Джаз</string>
-    <string name="dirac_preset_pop">Поп</string>
-    <string name="dirac_preset_classical">Классика</string>
-    <string name="dirac_preset_hiphop">Хип-хоп</string>
-    <string name="dirac_preset_blues">Блюз</string>
-    <string name="dirac_preset_electronic">Электроника</string>
-    <string name="dirac_preset_country">Кантри</string>
-    <string name="dirac_preset_dance">Танцевальные</string>
-    <string name="dirac_preset_metal">Метал</string>
-
     <!-- Display -->
     <string name="display_title">Экран</string>
+
+    <!-- Ambient Display -->
+    <string name="ambient_display_xiaomi">Дремать Xiaomi</string>
+    <string name="advanced_doze_summary">Окружающий дисплей</string>
 
     <!-- KCAL -->
     <string name="device_kcal_title">Калибровка цветов экрана</string>
@@ -55,6 +32,7 @@
 
     <string name="kcal_enabled">Вкл</string>
     <string name="kcal_disabled">Выкл</string>
+    <string name="kcal_footer">Попробуйте включить и выключить Night Light, чтобы увидеть эффекты</string>
     <string name="set_on_boot">Вкл при загрузке</string>
     <string name="color_red">Красный</string>
     <string name="color_green">Зеленый</string>
@@ -78,7 +56,9 @@
     <string name="preset_cool_amoled">Хороший Amoled</string>
     <string name="preset_extreme_amoled">Экстрим-Amoled</string>
     <string name="preset_warm_amoled">Тёплый Amoled</string>
+    <string name="preset_hybrid_mamba">Гибридная мамба</string>
 
+    <string name="kcal_presets">@string/presets_dialog_title</string>
     <string name="kcal_reset">Сбросить</string>
 
     <!-- Speaker -->
@@ -93,6 +73,7 @@
     <string name="usb_fastcharge_title">USB быстрая зарядка</string>
     <string name="fastcharge_title">Включить быструю зарядку по USB</string>
     <string name="fastcharge_summary">Заряжать вплоть до 900mA, когда телефон подключен через порт USB 3.0</string>
+    <string name="fastcharge_footer">Быстрая зарядка может разрядить аккумулятор быстрее. Используйте на свой риск.</string>
 
     <!-- Vibration -->
     <string name="vibration_title">Контроль вибрации</string>

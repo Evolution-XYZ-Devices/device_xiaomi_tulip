@@ -14,38 +14,15 @@
      limitations under the License.
 -->
 <resources>
-    <string name="advanced_settings">Налаштування Xiaomi</string>
+    <string name="advanced_settings">Xiaomi Parts</string>
     <string name="advanced_settings_summary">Додаткові налаштування</string>
-
-    <!--  Audio -->
-    <string name="audio_title">Аудіо</string>
-
-    <!-- Dirac settings -->
-    <string name="dirac_title">Покращення звуку Mi</string>
-    <string name="dirac_summary">Оптимізуйте якість звуку</string>
-    <string name="dirac_headset_title">Вибрати тип навушників</string>
-    <string name="dirac_preset_title">Вибрати шаблон</string>
-
-    <!-- Dirac settings: Headset types -->
-    <string name="dirac_headset_default">За замовчуванням</string>
-    <string name="dirac_headset_general">Звичайні</string>
-    <string name="dirac_headset_general_inear">Звичайні внутрішньоканальні</string>
-
-    <!-- Dirac settings: Equalizer presets -->
-    <string name="dirac_preset_default">За замовчуванням</string>
-    <string name="dirac_preset_rock">Рок</string>
-    <string name="dirac_preset_jazz">Джаз</string>
-    <string name="dirac_preset_pop">Поп</string>
-    <string name="dirac_preset_classical">Класика</string>
-    <string name="dirac_preset_hiphop">Хіп-хоп</string>
-    <string name="dirac_preset_blues">Блюз</string>
-    <string name="dirac_preset_electronic">Електроніка</string>
-    <string name="dirac_preset_country">Кантрі</string>
-    <string name="dirac_preset_dance">Танцювальні</string>
-    <string name="dirac_preset_metal">Метал</string>
 
     <!-- Display -->
     <string name="display_title">Екран</string>
+
+    <!-- Ambient Display -->
+    <string name="ambient_display_xiaomi">Дрімати Xiaomi</string>
+    <string name="advanced_doze_summary">Oточуючий дисплей</string>
 
     <!-- KCAL -->
     <string name="device_kcal_title">Калібровка кольорів екрану</string>
@@ -55,6 +32,7 @@
 
     <string name="kcal_enabled">Вкл</string>
     <string name="kcal_disabled">Викл</string>
+    <string name="kcal_footer">Спробуйте увімкнути та вимкнути Нічне світло, щоб побачити ефекти</string>
     <string name="set_on_boot">Вкл при завантаженні</string>
     <string name="color_red">Червоний</string>
     <string name="color_green">Зелений</string>
@@ -78,7 +56,9 @@
     <string name="preset_cool_amoled">Хороший Amoled</string>
     <string name="preset_extreme_amoled">Екстрім-Amoled</string>
     <string name="preset_warm_amoled">Теплий Amoled</string>
+    <string name="preset_hybrid_mamba">Гібридна мамба</string>
 
+    <string name="kcal_presets">@string/presets_dialog_title</string>
     <string name="kcal_reset">Скинути</string>
 
     <!-- Speaker -->
@@ -93,6 +73,7 @@
     <string name="usb_fastcharge_title">USB швидка зарядка</string>
     <string name="fastcharge_title">Включити швидку зарядку по USB</string>
     <string name="fastcharge_summary">Заряджати в притик до 900mA, коли телефон підключений через порт USB 3.0</string>
+    <string name="fastcharge_footer">Швидка зарядка може швидше розрядити акумулятор. Використовуйте на власний ризик.</string>
 
     <!-- Vibration -->
     <string name="vibration_title">Контроль вибрації</string>
