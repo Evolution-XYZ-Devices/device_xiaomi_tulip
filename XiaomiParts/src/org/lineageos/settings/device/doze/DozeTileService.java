@@ -15,14 +15,14 @@
 * along with this program. If not, see <http://www.gnu.org/licenses/>.
 *
 */
-package org.lineageos.settings.doze;
+package org.lineageos.settings.device.doze;
 
 import android.annotation.TargetApi;
 import android.content.Intent;
 import android.service.quicksettings.Tile;
 import android.service.quicksettings.TileService;
 
-import org.lineageos.settings.doze.R;
+import org.lineageos.settings.device.R;
 
 @TargetApi(24)
 public class DozeTileService extends TileService {

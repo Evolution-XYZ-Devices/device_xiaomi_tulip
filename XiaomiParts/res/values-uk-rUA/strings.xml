@@ -17,6 +17,30 @@
     <string name="advanced_settings">Xiaomi Parts</string>
     <string name="advanced_settings_summary">Додаткові налаштування</string>
 
+    <!-- Doze -->
+    <string name="switch_bar_on">Увімкнено</string>
+    <string name="switch_bar_off">Вимк</string>
+    <string name="device_settings_app_name">Додаткові налаштування</string>
+    <string name="ambient_display_title">Відображення навколишнього середовища</string>
+    <string name="pickup_sensor_title">Датчик прийому</string>
+    <string name="proximity_sensor_title">Датчик наближення</string>
+    <string name="hand_wave_gesture_title">Мах рукою</string>
+    <string name="hand_wave_gesture_summary">Імпульсні сповіщення на ручній хвилі</string>
+    <string name="pick_up_gesture_title">Пікап</string>
+    <string name="pick_up_gesture_summary">Імпульсні сповіщення про приймання</string>
+    <string name="pocket_gesture_title">Кишеньковий</string>
+    <string name="pocket_gesture_summary">Імпульсні сповіщення про вилучення з кишені</string>
+    <string name="proximity_wake_title">Близькість пробудження</string>
+    <string name="proximity_wake_enable_summary">Пристрій пробудження під рукою</string>
+    <string name="wake_on_gesture_title">Прокинься за допомогою жестів</string>
+    <string name="wake_on_gesture_summary">Вимкніть пристрій замість пульсуючих повідомлень про події жестів</string>
+    <string name="dialog_ok">Добре</string>
+    <string name="doze_settings_help_title">Довідка</string>
+    <string name="doze_settings_help_text">Ці функції використовують події датчиків для запуску імпульсу сповіщення про дрімоту. Обраний датчик активується лише тоді, коли пристрій отримує сповіщення, це допомагає зменшити споживання батареї. Також є можливість увімкнути вибраний датчик, як тільки екран вимкнеться, це призведе до більшого використання батареї.\n\nNOTE: Жести датчика наближення можуть повністю порушити глибокий сон. Використовуйте їх з обережністю.</string>
+    <string name="ambient_display_gestures_title">Жести оточуючого відображення</string>
+    <string name="ambient_display_always_on_title">Завжди увімкнено</string>
+    <string name="ambient_display_always_on_summary">Завжди показувати час, піктограми сповіщень та іншу інформацію. Збільшення використання акумулятора.</string>
+
     <!-- Display -->
     <string name="display_title">Екран</string>
 

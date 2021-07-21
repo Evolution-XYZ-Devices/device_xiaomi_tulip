@@ -23,12 +23,14 @@ import androidx.preference.PreferenceFragment;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
 
+import org.lineageos.settings.device.doze.DozeSettingsActivity;
 import org.lineageos.settings.device.kcal.KCalSettingsActivity;
 import org.lineageos.settings.device.preferences.CustomSeekBarPreference;
 import org.lineageos.settings.device.preferences.SecureSettingListPreference;
 import org.lineageos.settings.device.preferences.SecureSettingSwitchPreference;
 import org.lineageos.settings.device.preferences.VibrationSeekBarPreference;
 import org.lineageos.settings.device.speaker.ClearSpeakerActivity;
+import org.lineageos.settings.device.R;
 
 import java.lang.Math.*;
 
@@ -36,8 +38,7 @@ public class DeviceSettings extends PreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
     private static final String CATEGORY_DISPLAY = "display";
-    private static final String PREF_DEVICE_DOZE = "device_doze";
-    private static final String DEVICE_DOZE_PACKAGE_NAME = "org.lineageos.settings.doze";
+    private static final String PREF_DEVICE_DOZE = "advanced_doze_settings";
 
     private static final String PREF_DEVICE_KCAL = "device_kcal";
 
@@ -56,16 +57,19 @@ public class DeviceSettings extends PreferenceFragment implements
     public static final int MAX_VIBRATION = 3596;
 
     private Preference mClearSpeakerPref;
+    private Preference mDozeSettings;
     private SecureSettingSwitchPreference mFastcharge;
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         setPreferencesFromResource(R.xml.preferences_xiaomi_parts, rootKey);
 
-        PreferenceCategory displayCategory = (PreferenceCategory) findPreference(CATEGORY_DISPLAY);
-        if (isAppNotInstalled(DEVICE_DOZE_PACKAGE_NAME)) {
-            displayCategory.removePreference(findPreference(PREF_DEVICE_DOZE));
-        }
+        mDozeSettings = (Preference)findPreference(PREF_DEVICE_DOZE);
+        mDozeSettings.setOnPreferenceClickListener(preference -> {
+            Intent intent = new Intent(getActivity().getApplicationContext(), DozeSettingsActivity.class);
+            startActivity(intent);
+            return true;
+        });
 
         Preference kcal = findPreference(PREF_DEVICE_KCAL);
 

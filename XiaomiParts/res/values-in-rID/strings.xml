@@ -17,6 +17,30 @@
     <string name="advanced_settings">Xiaomi Parts</string>
     <string name="advanced_settings_summary">Pengaturan Perangkat Ekstra</string>
 
+    <!-- Doze -->
+    <string name="switch_bar_on">Aktif</string>
+    <string name="switch_bar_off">Nonaktif</string>
+    <string name="device_settings_app_name">Setelan lanjutan</string>
+    <string name="ambient_display_title">Tampilan sekitar</string>
+    <string name="pickup_sensor_title">Sensor pengambilan</string>
+    <string name="proximity_sensor_title">Sensor jarak</string>
+    <string name="hand_wave_gesture_title">Gelombang tangan</string>
+    <string name="hand_wave_gesture_summary">Pemberitahuan pulsa pada gelombang tangan</string>
+    <string name="pick_up_gesture_title">Pengambilan</string>
+    <string name="pick_up_gesture_summary">Notifikasi pulsa saat pengambilan</string>
+    <string name="pocket_gesture_title">Saku</string>
+    <string name="pocket_gesture_summary">Notifikasi pulsa saat dikeluarkan dari saku</string>
+    <string name="proximity_wake_title">Kedekatan bangun</string>
+    <string name="proximity_wake_enable_summary">Bangunkan perangkat dengan lambaian tangan</string>
+    <string name="wake_on_gesture_title">Bangun dengan gerakan</string>
+    <string name="wake_on_gesture_summary">Bangunkan perangkat alih-alih menampilkan notifikasi pada peristiwa gerakan</string>
+    <string name="dialog_ok">Oke</string>
+    <string name="doze_settings_help_title">Bantuan</string>
+    <string name="doze_settings_help_text">Fitur ini menggunakan peristiwa sensor untuk meluncurkan pulsa pemberitahuan istirahat. Sensor yang dipilih hanya diaktifkan ketika perangkat menerima pemberitahuan, ini membantu mengurangi penggunaan baterai. Ada juga opsi untuk mengaktifkan sensor yang dipilih segera setelah layar mati, ini akan menyebabkan penggunaan baterai yang lebih tinggi.\n\nNOTE: Gestur sensor jarak dapat mengganggu tidur nyenyak sepenuhnya. Gunakan dengan hati-hati.</string>
+    <string name="ambient_display_gestures_title">Gerakan tampilan sekitar</string>
+    <string name="ambient_display_always_on_title">Selalu aktif</string>
+    <string name="ambient_display_always_on_summary">Selalu tampilkan waktu, ikon notifikasi, dan info lainnya. Peningkatan penggunaan baterai.</string>
+
     <!-- Display -->
     <string name="display_title">Layar</string>
 

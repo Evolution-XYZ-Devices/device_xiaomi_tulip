@@ -17,6 +17,30 @@
     <string name="advanced_settings">Xiaomi Parts</string>
     <string name="advanced_settings_summary">Extra Device Settings</string>
 
+    <!-- Doze -->
+    <string name="switch_bar_on">On</string>
+    <string name="switch_bar_off">Off</string>
+    <string name="device_settings_app_name">Advanced settings</string>
+    <string name="ambient_display_title">Ambient display</string>
+    <string name="pickup_sensor_title">Pickup sensor</string>
+    <string name="proximity_sensor_title">Proximity sensor</string>
+    <string name="hand_wave_gesture_title">Hand wave</string>
+    <string name="hand_wave_gesture_summary">Pulse notifications on hand wave</string>
+    <string name="pick_up_gesture_title">Pick-up</string>
+    <string name="pick_up_gesture_summary">Pulse notifications on pick-up</string>
+    <string name="pocket_gesture_title">Pocket</string>
+    <string name="pocket_gesture_summary">Pulse notifications on removal from pocket</string>
+    <string name="proximity_wake_title">Proximity wake</string>
+    <string name="proximity_wake_enable_summary">Wake device on hand wave</string>
+    <string name="wake_on_gesture_title">Wake up on gestures</string>
+    <string name="wake_on_gesture_summary">Wake the device instead of pulsing notifications on gesture events</string>
+    <string name="dialog_ok">OK</string>
+    <string name="doze_settings_help_title">Help</string>
+    <string name="doze_settings_help_text">These features use sensor events to launch a doze notification pulse. The chosen sensor is only enabled when the device receives a notification, this helps to reduce battery usage. There is also an option to enable the chosen sensor as soon as the screen turns off, this will cause higher battery usage.\n\nNOTE: The proximity sensor gestures may break deep sleep completely. Use them with caution.</string>
+    <string name="ambient_display_gestures_title">Ambient display gestures</string>
+    <string name="ambient_display_always_on_title">Always on</string>
+    <string name="ambient_display_always_on_summary">Always show time, notification icons, and other info. Increased battery usage.</string>
+
     <!-- Display -->
     <string name="display_title">Display</string>
 

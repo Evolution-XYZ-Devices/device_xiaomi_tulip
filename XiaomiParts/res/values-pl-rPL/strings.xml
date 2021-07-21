@@ -17,6 +17,30 @@
     <string name="advanced_settings">Xiaomi Parts</string>
     <string name="advanced_settings_summary">Dodatkowe ustawienia urządzenia</string>
 
+    <!-- Doze -->
+    <string name="switch_bar_on">Włączone</string>
+    <string name="switch_bar_off">Wyłączone</string>
+    <string name="device_settings_app_name">Ustawienia zaawansowane</string>
+    <string name="ambient_display_title">Wyświetlanie otoczenia</string>
+    <string name="pickup_sensor_title">Czujnik odbioru</string>
+    <string name="proximity_sensor_title">Czujnik zbliżeniowy</string>
+    <string name="hand_wave_gesture_title">Machanie ręką</string>
+    <string name="hand_wave_gesture_summary">Powiadomienia impulsowe przy machaniu ręką</string>
+    <string name="pick_up_gesture_title">Odbiór</string>
+    <string name="pick_up_gesture_summary">Powiadomienia impulsowe przy odbiorze</string>
+    <string name="pocket_gesture_title">Kieszeń</string>
+    <string name="pocket_gesture_summary">Pulsowe powiadomienia o wyjęciu z kieszeni</string>
+    <string name="proximity_wake_title">Budzenie bliskości</string>
+    <string name="proximity_wake_enable_summary">Wybudź urządzenie machając ręką</string>
+    <string name="wake_on_gesture_title">Obudź się za pomocą gestów</string>
+    <string name="wake_on_gesture_summary">Wybudź urządzenie zamiast pulsować powiadomieniami o zdarzeniach gestów</string>
+    <string name="dialog_ok">OK</string>
+    <string name="doze_settings_help_title">Pomoc</string>
+    <string name="doze_settings_help_text">Te funkcje wykorzystują zdarzenia czujnika do uruchomienia impulsu powiadomienia o drzemce. Wybrany czujnik jest włączony tylko wtedy, gdy urządzenie otrzyma powiadomienie, co pomaga zmniejszyć zużycie baterii. Istnieje również opcja włączenia wybranego czujnika, gdy tylko ekran się wyłączy, spowoduje to większe zużycie baterii.\n\nNOTE: Gesty czujnika zbliżeniowego mogą całkowicie przerwać głęboki sen. Używaj ich ostrożnie.</string>
+    <string name="ambient_display_gesttures_title">Gesty wyświetlania otoczenia</string>
+    <string name="ambient_display_always_on_title">Zawsze włączone</string>
+    <string name="ambient_display_always_on_summary">Zawsze pokazuj godzinę, ikony powiadomień i inne informacje. Zwiększone zużycie baterii.</string>
+
     <!-- Display -->
     <string name="display_title">Wyświetlacz</string>
 

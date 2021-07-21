@@ -13,6 +13,9 @@ LOCAL_PRIVATE_PLATFORM_APIS := true
 LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res
 LOCAL_USE_AAPT2 := true
 
+LOCAL_RESOURCE_DIR := \
+    $(LOCAL_PATH)/res
+
 package_resource_overlays := $(strip \
     $(wildcard $(foreach dir, $(PRODUCT_PACKAGE_OVERLAYS), \
       $(addprefix $(dir)/, packages/apps/XiaomiParts/res))) \
@@ -20,8 +23,7 @@ package_resource_overlays := $(strip \
       $(addprefix $(dir)/, packages/apps/XiaomiParts/res))))
 
 LOCAL_RESOURCE_DIR := $(package_resource_overlays) $(LOCAL_RESOURCE_DIR)
-
-LOCAL_PROGUARD_ENABLED := disabled
+LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 LOCAL_DEX_PREOPT := false
 
 include frameworks/base/packages/SettingsLib/common.mk

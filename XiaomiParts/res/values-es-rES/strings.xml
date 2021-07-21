@@ -17,6 +17,30 @@
     <string name="advanced_settings">Xiaomi Parts</string>
     <string name="advanced_settings_summary">Configuración adicional</string>
 
+    <!-- Doze -->
+    <string name="switch_bar_on">Encendido</string>
+    <string name="switch_bar_off">Apagado</string>
+    <string name="device_settings_app_name">Opciones avanzadas</string>
+    <string name="ambient_display_title">Pantalla ambiente</string>
+    <string name="pickup_sensor_title">Sensor de recogida</string>
+    <string name="proximity_sensor_title">Sensor de proximidad</string>
+    <string name="hand_wave_gesture_title">Gesto de ola</string>
+    <string name="hand_wave_gesture_summary">Pulsar notificaciones con el gesto de ola</string>
+    <string name="pick_up_gesture_title">Gesto de recogida</string>
+    <string name="pick_up_gesture_summary">Pulsar notificaciones con el gesto de recogida</string>
+    <string name="pocket_gesture_title">Gesto de bolsillo</string>
+    <string name="pocket_gesture_summary">Pulsar notificaciones al sacar el dispositivo del bolsillo</string>
+    <string name="proximity_wake_title">Despertar el dispositivo con la proximidad</string>
+    <string name="proximity_wake_enable_summary">Despertar dispositivo haciendo el gesto de ola</string>
+    <string name="wake_on_gesture_title">Despertar con gestos</string>
+    <string name="wake_on_gesture_summary">Despertar el dispositivo en vez de pulsar las notificaciones en los eventos de gestos</string>
+    <string name="dialog_ok">Ok</string>
+    <string name="doze_settings_help_title">Ayuda</string>
+    <string name="doze_settings_help_text">Estas funciones utilizan eventos del sensor para lanzar un pulso de notificación del Doze. El sensor elegido solo se habilita cuando el dispositivo recibe una notificación, esto ayuda a reducir el uso de la batería. También hay una opción para habilitar el sensor elegido tan pronto como la pantalla se apague, esto provocará un mayor uso de la batería.\n\nNOTE: Los gestos del sensor de proximidad pueden interrumpir el sueño profundo completamente. Úselos con precaución.</string>
+    <string name="ambient_display_gestures_title">Gestos en pantalla ambiente</string>
+    <string name="ambient_display_always_on_title">Siempre activo</string>
+    <string name="ambient_display_always_on_summary">Siempre mostrar hora, iconos de notificaciones y otra información. Incrementa el uso de batería.</string>
+
     <!-- Display -->
     <string name="display_title">Pantalla</string>
 

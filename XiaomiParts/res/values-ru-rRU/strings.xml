@@ -17,6 +17,30 @@
     <string name="advanced_settings">Xiaomi Parts</string>
     <string name="advanced_settings_summary">Дополнительные настройки</string>
 
+    <!-- Doze -->
+    <string name="switch_bar_on">Вкл</string>
+    <string name="switch_bar_off">Выкл</string>
+    <string name="device_settings_app_name">Расширенные настройки</string>
+    <string name="ambient_display_title">Окружающее отображение</string>
+    <string name="pickup_sensor_title">Датчик подбора</string>
+    <string name="sizes_sensor_title">Датчик приближения</string>
+    <string name="hand_wave_gesture_title">Волна рукой</string>
+    <string name="hand_wave_gesture_summary">Уведомления о пульсе на размахе руки</string>
+    <string name="pick_up_gesture_title">Самовывоз</string>
+    <string name="pick_up_gesture_summary">Импульсные уведомления при получении</string>
+    <string name="pocket_gesture_title">Карман</string>
+    <string name="pocket_gesture_summary">Импульсные уведомления при извлечении из кармана</string>
+    <string name="sizes_wake_title">Пробуждение от близости</string>
+    <string name="sizes_wake_enable_summary">Разбудить устройство рукой, взмахом руки</string>
+    <string name="wake_on_gesture_title">Просыпаться по жестам</string>
+    <string name="wake_on_gesture_summary">Разбудить устройство вместо импульсных уведомлений о событиях жестов</string>
+    <string name="dialog_ok">ОК</string>
+    <string name="doze_settings_help_title">Справка</string>
+    <string name="doze_settings_help_text">Эти функции используют события датчиков для запуска импульса уведомления о дремоте. Выбранный датчик активируется только тогда, когда устройство получает уведомление, это помогает снизить расход заряда батареи. Существует также возможность включить выбранный датчик, как только экран выключится, это приведет к увеличению расхода заряда батареи.\n\nNOTE: жесты датчика приближения могут полностью нарушить режим глубокого сна. Используйте их с осторожностью.</string>
+    <string name="ambient_display_gestures_title">Внешние жесты отображения</string>
+    <string name="ambient_display_always_on_title">Всегда включен</string>
+    <string name="ambient_display_always_on_summary">Всегда показывать время, значки уведомлений и другую информацию. Увеличенное использование батареи.</string>
+
     <!-- Display -->
     <string name="display_title">Экран</string>
 

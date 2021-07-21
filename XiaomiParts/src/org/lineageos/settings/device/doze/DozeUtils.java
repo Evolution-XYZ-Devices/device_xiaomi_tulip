@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.settings.doze;
+package org.lineageos.settings.device.doze;
 
 import android.content.Context;
 import android.content.Intent;
@@ -33,7 +33,7 @@ import android.hardware.display.AmbientDisplayConfiguration;
 import static android.provider.Settings.Secure.DOZE_ALWAYS_ON;
 import static android.provider.Settings.Secure.DOZE_ENABLED;
 
-public final class Utils {
+public final class DozeUtils {
 
     private static final String TAG = "DozeUtils";
     private static final boolean DEBUG = false;
@@ -62,7 +62,7 @@ public final class Utils {
                 UserHandle.CURRENT);
     }
 
-    protected static void checkDozeService(Context context) {
+    public static void checkDozeService(Context context) {
         if (isDozeEnabled(context) && !isAlwaysOnEnabled(context) && sensorsEnabled(context)) {
             startService(context);
         } else {
