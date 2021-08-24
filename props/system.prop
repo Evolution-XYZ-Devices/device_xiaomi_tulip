@@ -1,3 +1,6 @@
+# App
+ro.launcher.blur.appLaunch=0
+
 # Bluetooth
 vendor.bluetooth.soc=cherokee
 
