@@ -1,0 +1,24 @@
+//
+// Copyright (C) 2020 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+cc_library_shared {
+    name: "libcamera_sdm660_shim",
+    srcs: ["libcamera_sdm660_shim/camera_sdm660_shim.cpp"],
+    shared_libs: [
+        "libui",
+        "libutils",
+    ],
+    vendor: true,
+}
+
+cc_library {
+    name: "libshim_dpmframework",
+    srcs: [
+        "libshim_dpmframework/strdup16to8.cpp",
+        "libshim_dpmframework/strdup8to16.cpp",
+    ],
+    product_specific: true,
+}
