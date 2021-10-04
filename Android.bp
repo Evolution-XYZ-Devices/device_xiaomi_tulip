@@ -1,2 +1,6 @@
+subdirs = [
+    "*"
+]
+
 soong_namespace {
 }

@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-#define LOG_TAG "ConsumerIrService.xiaomi_sdm660"
+#define LOG_TAG "ConsumerIrService.twolip"
 
 #include <android-base/logging.h>
 
