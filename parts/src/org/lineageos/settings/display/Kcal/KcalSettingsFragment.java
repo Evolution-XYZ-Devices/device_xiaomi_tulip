@@ -16,11 +16,11 @@
 
 package org.lineageos.settings.display;
 
+import android.app.ActionBar;
 import android.app.Activity;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.view.MenuItem;
 
 import androidx.preference.Preference;
 import androidx.preference.Preference.OnPreferenceChangeListener;
@@ -51,7 +51,10 @@ public class KcalSettingsFragment extends PreferenceFragment implements
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         addPreferencesFromResource(R.xml.kcal_settings);
-        getActivity().getActionBar().setDisplayHomeAsUpEnabled(true);
+        final ActionBar actionBar = getActivity().getActionBar();
+        if (actionBar != null) {
+            actionBar.setDisplayHomeAsUpEnabled(true);
+        }
         mSharedPrefs = PreferenceManager.getDefaultSharedPreferences(getContext());
 
         mKcalSwitchPreference = (SwitchPreference) findPreference("kcal_enable");
@@ -97,15 +100,6 @@ public class KcalSettingsFragment extends PreferenceFragment implements
                 break;
         }
         return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        if (item.getItemId() == android.R.id.home) {
-            getActivity().onBackPressed();
-            return true;
-        }
-        return false;
     }
 
     // Configure the switches, preferences and sliders
