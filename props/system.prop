@@ -25,3 +25,6 @@ telephony.lteOnCdmaDevice=1
 
 # RCS
 persist.rcs.supported=1
+
+# RIL
+persist.sys.fflag.override.settings_provider_model=false
