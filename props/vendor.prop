@@ -187,5 +187,8 @@ ro.vendor.sensors.mot_detect=true
 ro.soc.manufacturer=QTI
 ro.soc.model=SDM660
 
+# System
+persist.sys.binary_xml=false
+
 # Time
 persist.vendor.delta_time.enable=true
