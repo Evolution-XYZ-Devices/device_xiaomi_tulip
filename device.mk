@@ -392,10 +392,6 @@ PRODUCT_PACKAGES += \
     libcamera_sdm660_shim \
     libshim_dpmframework
 
-# Tethering
-PRODUCT_PACKAGES += \
-    TetheringConfigOverlay
-
 # Tetheroffload
 PRODUCT_PACKAGES += \
     ipacm \
