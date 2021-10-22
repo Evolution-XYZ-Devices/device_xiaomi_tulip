@@ -1,4 +1,5 @@
 # jasmine package version: V11.0.28.0.QDIMIXM, unless stated otherwise
+# All unpinned blobs come from tulip V12.0.1.0.PEKMIXM, unless stated otherwise
 
 # ADSP - from jasmine
 vendor/bin/adsprpcd|0cdd541ee0a365c5dccd0613e495611f4d0f6607
