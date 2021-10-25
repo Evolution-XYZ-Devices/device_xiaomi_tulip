@@ -13,6 +13,7 @@ ro.sys.fw.dex2oat_thread_count=8
 # Display
 debug.hwui.use_hint_manager=true
 debug.hwui.target_cpu_time_percent=20
+renderthread.skia.reduceopstasksplitting=true
 
 # Netflix
 ro.netflix.bsp_rev=Q660-13149-1
