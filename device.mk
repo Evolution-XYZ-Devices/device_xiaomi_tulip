@@ -16,7 +16,7 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay
 
 PRODUCT_PACKAGES += \
-    NoCutoutOverlay
+    TulipNoCutoutOverlay
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
