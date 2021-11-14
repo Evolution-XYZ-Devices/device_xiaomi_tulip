@@ -4,8 +4,8 @@ import android.compat.annotation.UnsupportedAppUsage;
 
 public abstract class IFAAManagerV4 extends IFAAManagerV3 {
     @UnsupportedAppUsage
-    public abstract int getEnabled(int bioType);
+    public abstract int getEnabled(int i);
 
     @UnsupportedAppUsage
-    public abstract int[] getIDList(int bioType);
+    public abstract int[] getIDList(int i);
 }
