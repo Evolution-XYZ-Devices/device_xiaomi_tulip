@@ -1,1 +1,4 @@
 type hal_mlipay_hwservice, hwservice_manager_type;
+
+# Turbo adapter
+type hal_turbo_adapter_hwservice, hwservice_manager_type;
