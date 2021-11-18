@@ -101,6 +101,14 @@ persist.vendor.imx376_sunny.low.lux=290
 vendor.video.disable.ubwc=1
 vidc.enc.dcvs.extra-buff-count=2
 
+# dex2oat
+dalvik.vm.boot-dex2oat-cpu-set=0,1,2,3,4,5,6,7
+dalvik.vm.boot-dex2oat-threads=8
+dalvik.vm.dex2oat-cpu-set=0,1,2,3,4,5,6,7
+dalvik.vm.dex2oat-threads=8
+dalvik.vm.image-dex2oat-cpu-set=0,1,2,3,4,5,6,7
+dalvik.vm.image-dex2oat-threads=8
+
 # Display
 debug.sf.use_phase_offsets_as_durations=1
 debug.sf.late.sf.duration=10500000
