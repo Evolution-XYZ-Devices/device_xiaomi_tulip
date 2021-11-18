@@ -214,6 +214,12 @@ on property:sys.shutdown.requested=*
 #on property:persist.usb.chgdisabled=0
 #    write /sys/class/power_supply/battery/charging_enabled 1
 
+on property:persist.sys.device_provisioned=1
+    setprop dalvik.vm.dex2oat-cpu-set 0,1,2,3,4,5,6,7
+    setprop dalvik.vm.dex2oat-threads 4
+    setprop dalvik.vm.image-dex2oat-cpu-set 4,5,6,7
+    setprop dalvik.vm.image-dex2oat-threads 4
+
 service vendor.qseecomd /vendor/bin/qseecomd
    class core
    user root
