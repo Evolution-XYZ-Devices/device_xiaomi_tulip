@@ -18,6 +18,9 @@ dalvik.vm.dex2oat64.enabled=true
 # Dex2oat
 ro.sys.fw.dex2oat_thread_count=8
 
+# DHA Tunning
+ro.config.dha_tunnable=1
+
 # Increase Scrool Smoothness 
 ro.vendor.qti.cgroup_follow.enable=true
 persist.vendor.qti.inputopts.enable=true
@@ -61,3 +64,10 @@ persist.sys.fflag.override.settings_provider_model=false
 
 # Skia
 renderthread.skia.reduceopstasksplitting=true
+
+# Smoothens UI
+persist.service.lgospd.enable=0
+persist.service.pcsync.enable=0
+
+# Venom
+ro.surface_flinger.running_without_sync_framework=true
