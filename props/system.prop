@@ -18,6 +18,9 @@ dalvik.vm.dex2oat64.enabled=true
 # Dex2oat
 ro.sys.fw.dex2oat_thread_count=8
 
+# Force triple frame buffers
+ro.surface_flinger.max_frame_buffer_acquired_buffers=3
+
 # DHA Tunning
 ro.config.dha_tunnable=1
 
