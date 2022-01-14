@@ -84,4 +84,7 @@
 
     <!-- Wifi driver supports WPA3 Simultaneous Authentication of Equals (WPA3-SAE) for softap -->
     <bool translatable="false" name="config_wifi_softap_sae_supported">true</bool>
+
+    <!-- Indicate the device support request channel on Wi-Fi Aware data-path. -->
+    <bool translatable="false" name="config_wifiSupportChannelOnDataPath">true</bool>
 </resources>
