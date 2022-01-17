@@ -1,6 +1,26 @@
 [
-  {
-    "repository": "android_kernel_xiaomi_sdm660",
-    "target_path": "kernel/xiaomi/sdm660"
-  }
+ {
+    "repository" : "crdroidandroid/android_vendor_xiaomi_twolip",
+    "target_path": "vendor/xiaomi/twolip",
+    "remote"     : "github",
+    "revision"   : "12.1"
+ },
+ {
+    "repository" : "LineageOS/android_hardware_qcom_display",
+    "target_path": "hardware/qcom-caf/msm8998/display",
+    "remote"     : "github",
+    "revision"   : "lineage-19.1-caf-msm8998"
+ },
+ {
+    "repository" : "LineageOS/android_hardware_qcom_media",
+    "target_path": "hardware/qcom-caf/msm8998/media",
+    "remote"     : "github",
+    "revision"   : "lineage-19.1-caf-msm8998"
+ },
+ {
+    "repository" : "LineageOS/android_hardware_qcom_audio",
+    "target_path": "hardware/qcom-caf/msm8998/audio",
+    "remote"     : "github",
+    "revision"   : "lineage-19.1-caf-msm8998"
+ }
 ]
