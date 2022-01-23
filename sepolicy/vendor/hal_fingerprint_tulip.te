@@ -29,4 +29,7 @@ set_prop(hal_fingerprint_tulip, hal_fingerprint_prop)
 
 dontaudit hal_fingerprint_default storage_file:dir search;
 
+# Allow fp HAL to send hint
+hal_client_domain(hal_fingerprint_tulip, hal_power)
+
 allow hal_fingerprint_tulip rootfs:dir { read };
