@@ -11,6 +11,9 @@ BUILD_BROKEN_INCORRECT_PARTITION_IMAGES := true
 
 DEVICE_PATH := device/xiaomi/tulip
 
+# Asserts
+TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2160
 TARGET_SCREEN_WIDTH := 1080
