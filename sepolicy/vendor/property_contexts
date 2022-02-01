@@ -38,6 +38,8 @@ persist.vendor.sys.provision.status     u:object_r:mlipay_prop:s0
 
 # Power
 vendor.powerhal.                        u:object_r:vendor_power_prop:s0
+vendor.powerhal.audio                   u:object_r:vendor_power_prop:s0
+vendor.powerhal.dalvik.                 u:object_r:vendor_power_prop:s0
 
 # RIL
 ro.build.software.version               u:object_r:telephony_status_prop:s0
