@@ -4,6 +4,11 @@ ro.launcher.blur.appLaunch=0
 # Bluetooth
 vendor.bluetooth.soc=cherokee
 
+# Blur
+ro.sf.blurs_are_expensive=0
+ro.surface_flinger.supports_background_blur=0
+ro.launcher.blur.appLaunch=0
+
 # CNE
 persist.vendor.cne.feature=1
 
