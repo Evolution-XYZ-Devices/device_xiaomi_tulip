@@ -9,6 +9,9 @@ DEVICE_PATH := device/xiaomi/twolip
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
+# GCAM
+$(call inherit-product-if-exists, vendor/xiaomi/gcam/gcam.mk)
+
 # Indicate the first api level the device has been commercially launched on
 PRODUCT_SHIPPING_API_LEVEL := 27
 
