@@ -5,17 +5,20 @@
 //
 
 cc_binary {
-    defaults: ["hidl_defaults"],
-    name: "android.hardware.light@2.0-service.twolip",
-    init_rc: ["android.hardware.light@2.0-service.twolip.rc"],
-    vintf_fragments: ["android.hardware.light@2.0-service.twolip.xml"],
-    srcs: ["service.cpp", "Light.cpp"],
+    name: "android.hardware.lights-service.qti",
+    relative_install_path: "hw",
+    init_rc: ["android.hardware.lights-qti.rc"],
+    vintf_fragments: ["android.hardware.lights-qti.xml"],
+    vendor: true,
     shared_libs: [
         "libbase",
-        "libhidlbase",
-        "libutils",
-        "android.hardware.light@2.0",
+        "liblog",
+        "libhardware",
+        "libbinder_ndk",
+        "android.hardware.light-ndk_platform",
     ],
-    relative_install_path : "hw",
-    vendor: true,
+    srcs: [
+        "Lights.cpp",
+        "main.cpp",
+    ],
 }
