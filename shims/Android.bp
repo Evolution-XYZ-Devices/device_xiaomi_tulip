@@ -13,12 +13,3 @@ cc_library_shared {
     ],
     vendor: true,
 }
-
-cc_library {
-    name: "libshim_dpmframework",
-    srcs: [
-        "libshim_dpmframework/strdup16to8.cpp",
-        "libshim_dpmframework/strdup8to16.cpp",
-    ],
-    product_specific: true,
-}
