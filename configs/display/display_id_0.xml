@@ -15,14 +15,18 @@
     limitations under the License. -->
 
 <displayConfiguration>
+    <screenBrightnessRampFastDecrease>0.5</screenBrightnessRampFastDecrease>
+    <screenBrightnessRampFastIncrease>0.5</screenBrightnessRampFastIncrease>
+    <screenBrightnessRampSlowDecrease>0.04</screenBrightnessRampSlowDecrease>
+    <screenBrightnessRampSlowIncrease>0.05</screenBrightnessRampSlowIncrease>
     <screenBrightnessMap>
         <point>
             <value>0.0</value>
-            <nits>1.3</nits>
+            <nits>1.0</nits>
         </point>
         <point>
             <value>1.0</value>
-            <nits>481.0</nits>
+            <nits>420.0</nits>
         </point>
     </screenBrightnessMap>
 </displayConfiguration>
