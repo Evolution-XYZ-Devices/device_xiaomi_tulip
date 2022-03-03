@@ -20,16 +20,18 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-import org.lineageos.settings.R;
+import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity;
+import com.android.settingslib.collapsingtoolbar.R;
 
-public class KcalSettingsActivity extends Activity {
+public class KcalSettingsActivity extends CollapsingToolbarBaseActivity {
 
     private static final String TAG = "kcal_settings";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_kcal);
+        setContentView(R.layout.preview_kcal);
         getFragmentManager().beginTransaction().replace(R.id.fragment_kcal, new KcalSettingsFragment(), TAG).commit();
     }
 

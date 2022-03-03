@@ -14,46 +14,54 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-
+<PreferenceScreen
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--PreferenceCategory
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"-->
     <SwitchPreference
-        android:key="kcal_enable"
-        android:defaultValue="true"
-        android:icon="@drawable/ic_kcal"
-        android:title="@string/kcal_enable_title"
-        android:summary="@string/kcal_enable_summary" />
+            android:defaultValue="true"
+            android:icon="@drawable/ic_kcal"
+            android:key="kcal_enable"
+            android:summary="@string/kcal_enable_summary"
+            android:title="@string/kcal_enable_title" />
+        <Preference
+            android:icon="@drawable/ic_reset"
+            android:key="reset_default_button"
+            android:summary="@string/reset_default_button_summary"
+            android:title="@string/reset_default_button_title" />
 
-    <Preference
-        android:key="reset_default_button"
-        android:title="@string/reset_default_button_title"
-        android:icon="@drawable/ic_reset"
-        android:summary="@string/reset_default_button_summary" />
-
-    <PreferenceCategory
-        android:key="kcal_rgb_preference_category"
-        android:title="@string/kcal_rgb_preference_category_title">
+        <PreferenceCategory
+            android:key="kcal_rgb_preference_category"
+            android:title="@string/kcal_rgb_preference_category_title">
 
         <SeekBarPreference
+            android:defaultValue="256"
+            android:dependency="kcal_enable"
+            android:layout_height="10dp"
+            android:icon="@drawable/ic_seek_red"
             android:key="red_slider"
-            android:defaultValue="256"
-            android:dependency="kcal_enable"
-            android:max="256"
-            android:title="@string/red_slider_title" />
+            android:max="256" />
 
         <SeekBarPreference
+            android:defaultValue="256"
+            android:dependency="kcal_enable"
+            android:layout_height="10dp"
+            android:icon="@drawable/ic_seek_green"
             android:key="green_slider"
-            android:defaultValue="256"
-            android:dependency="kcal_enable"
-            android:max="256"
-            android:title="@string/green_slider_title" />
+            android:max="256" />
 
         <SeekBarPreference
-            android:key="blue_slider"
             android:defaultValue="256"
             android:dependency="kcal_enable"
-            android:max="256"
-            android:title="@string/blue_slider_title" />
-
+            android:layout_height="10dp"
+            android:icon="@drawable/ic_seek_blue"
+            android:key="blue_slider"
+            android:max="256" />
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -61,20 +69,19 @@
         android:title="@string/kcal_calibration_preference_category_title">
 
         <SeekBarPreference
-            android:key="saturation_slider"
             android:defaultValue="255"
             android:dependency="kcal_enable"
+            android:layout_height="10dp"
+            android:key="saturation_slider"
             android:max="383"
             android:title="@string/saturation_slider_title" />
-
         <SeekBarPreference
-            android:key="contrast_slider"
             android:defaultValue="255"
             android:dependency="kcal_enable"
+            android:layout_height="10dp"
+            android:key="contrast_slider"
             android:max="383"
             android:title="@string/contrast_slider_title" />
-
-    </PreferenceCategory>
-
+        </PreferenceCategory>
 </PreferenceScreen>
 
