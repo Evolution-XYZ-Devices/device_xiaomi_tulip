@@ -30,6 +30,9 @@ persist.rcs.supported=1
 # RIL
 persist.sys.fflag.override.settings_provider_model=false
 
+# Wifi Display
+media.wfd.max_resolution=5
+
 # ZRAM writeback
 ro.zram.mark_idle_delay_mins=60
 ro.zram.first_wb_delay_mins=1440
