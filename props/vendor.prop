@@ -135,6 +135,7 @@ ro.surface_flinger.set_touch_timer_ms=5000
 ro.surface_flinger.set_idle_timer_ms=9000
 ro.surface_flinger.wcg_composition_dataspace=143261696
 ro.vendor.display.cabl=0
+ro.vendor.perf.scroll_opt=true
 vendor.display.disable_rotator_downscale=1
 vendor.display.disable_skip_validate=1
 vendor.display.enable_default_color_mode=1
