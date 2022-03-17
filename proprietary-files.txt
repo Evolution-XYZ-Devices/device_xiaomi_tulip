@@ -1179,6 +1179,9 @@ vendor/lib64/vendor.qti.ims.rcsconfig@2.1.so|f52f0cd5e19455eba97dea61542217d4aa5
 vendor/lib64/vendor.qti.imsrtpservice@3.0.so|460e589128fce0b0e83bb3c75aa32f7e1a9494fd
 vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so|0613dc47603180efd13a0dea6bdb22a5068aee8d
 
+# Radio - IMS - from motorola/nio_retcn/nio: 11/RRN31.Q3-1-11-6/f81cc:user/release-keys
+vendor/lib64/deviceInfoServiceModule.so|c7d4021528f3a43320d0f109a9ed5f765a6a92a2vt
+
 # Sensors
 vendor/bin/sensors.qti
 vendor/etc/sensors/hals.conf
