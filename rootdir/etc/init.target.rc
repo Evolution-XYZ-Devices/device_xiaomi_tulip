@@ -82,9 +82,9 @@ on late-init
     # Start services for bootanim
     start surfaceflinger
     start bootanim
-    start vendor.hwcomposer-2-3
+    start vendor.hwcomposer-2-1
     start vendor.configstore-hal
-    start vendor.qti.hardware.display.allocator
+    start vendor.gralloc-2-0
 
 on post-fs-data
     mkdir /data/tombstones/modem 0771 system system
