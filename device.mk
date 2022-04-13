@@ -126,7 +126,7 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service.tulip
 
 PRODUCT_PACKAGES += \
-    org.ifaa.android.manager
+    IFAAService
 
 # Bluetooth
 PRODUCT_PACKAGES += \
