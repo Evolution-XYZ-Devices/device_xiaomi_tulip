@@ -118,11 +118,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service.twolip
 
+# IFAA
 PRODUCT_PACKAGES += \
-    org.ifaa.android.manager
-
-PRODUCT_BOOT_JARS += \
-    org.ifaa.android.manager
+    IfaaService
 
 # Bluetooth
 PRODUCT_PACKAGES += \
