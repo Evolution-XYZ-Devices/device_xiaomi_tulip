@@ -124,8 +124,9 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1.vendor \
     android.hardware.biometrics.fingerprint@2.1-service.tulip
 
+# IFAA
 PRODUCT_PACKAGES += \
-    org.ifaa.android.manager
+    org.ifaa.aidl.manager
 
 # Bluetooth
 PRODUCT_PACKAGES += \
