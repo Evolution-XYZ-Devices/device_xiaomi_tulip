@@ -16,6 +16,9 @@ ro.sys.fw.dex2oat_thread_count=8
 # Netflix
 ro.netflix.bsp_rev=Q660-13149-1
 
+# Phantom process monitoring
+persist.sys.fflag.override.settings_enable_monitor_phantom_procs=false
+
 # Radio
 ril.subscription.types=NV,RUIM
 telephony.lteOnCdmaDevice=1
