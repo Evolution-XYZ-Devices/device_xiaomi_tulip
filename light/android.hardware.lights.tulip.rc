@@ -35,7 +35,7 @@ on boot
     chown system system /sys/class/leds/led:switch_1/brightness
     chown system system /sys/class/leds/flashlight/brightness
 
-service vendor.light /vendor/bin/hw/android.hardware.lights-service.twolip
+service vendor.light /vendor/bin/hw/android.hardware.lights-service.tulip
     class hal
     user system
     group system

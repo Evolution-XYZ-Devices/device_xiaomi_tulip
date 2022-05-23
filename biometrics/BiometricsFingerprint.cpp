@@ -4,7 +4,7 @@
  *
  * SPDX-License-Identifier: Apache-2.0
  */
-#define LOG_TAG "android.hardware.biometrics.fingerprint@2.1-service.twolip"
+#define LOG_TAG "android.hardware.biometrics.fingerprint@2.1-service.tulip"
 
 #include <hardware/hw_auth_token.h>
 

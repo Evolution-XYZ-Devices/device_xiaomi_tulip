@@ -13,9 +13,9 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<!-- Twolip specific wifi overlays -->
+<!-- tulip specific wifi overlays -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.wifi.resources.twolip"
+    package="com.android.wifi.resources.tulip"
     android:versionCode="1"
     android:versionName="1.0">
     <application android:hasCode="false" />

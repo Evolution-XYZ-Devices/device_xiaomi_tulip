@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-#define LOG_TAG "ConsumerIrService.twolip"
+#define LOG_TAG "ConsumerIrService.tulip"
 
 #include <android-base/logging.h>
 

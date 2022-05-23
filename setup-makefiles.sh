@@ -8,7 +8,7 @@
 
 set -e
 
-export DEVICE=twolip
+export DEVICE=tulip
 export VENDOR=xiaomi
 
 # Load extract_utils and do some sanity checks
@@ -28,7 +28,7 @@ source "${HELPER}"
 setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}" true
 
 # Warning headers and guards
-write_headers "twolip"
+write_headers "tulip"
 
 # The standard blobs
 write_makefiles "${MY_DIR}/proprietary-files.txt" true

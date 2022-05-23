@@ -5,10 +5,10 @@
 //
 
 cc_binary {
-    name: "android.hardware.lights-service.twolip",
+    name: "android.hardware.lights-service.tulip",
     relative_install_path: "hw",
-    init_rc: ["android.hardware.lights.twolip.rc"],
-    vintf_fragments: ["android.hardware.lights.twolip.xml"],
+    init_rc: ["android.hardware.lights.tulip.rc"],
+    vintf_fragments: ["android.hardware.lights.tulip.xml"],
     vendor: true,
     shared_libs: [
         "libbase",

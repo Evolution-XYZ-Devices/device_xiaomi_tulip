@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-#define LOG_TAG "android.hardware.ir@1.0-service.twolip"
+#define LOG_TAG "android.hardware.ir@1.0-service.tulip"
 
 #include <android-base/logging.h>
 #include <hidl/HidlTransportSupport.h>
