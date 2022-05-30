@@ -28,5 +28,12 @@
     "target_path": "hardware/qcom-caf/msm8998/audio",
     "remote"     : "github",
     "revision"   : "lineage-19.1-caf-msm8998"
+ },
+ {
+   "repository" : "kdrag0n/proton-clang",
+   "target_path": "prebuilts/clang/host/linux-x86/clang-proton",
+   "branch"     : "master",
+   "clone-depth": "1",
+   "remote"     : "github"
  }
 ]
