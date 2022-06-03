@@ -1,11 +1,5 @@
 [
  {
-    "repository" : "LineageOS/android_hardware_xiaomi",
-    "target_path": "hardware/xiaomi",
-    "remote"     : "github",
-    "revision"   : "lineage-19.1"
- },
- {
     "repository" : "tedomi2705/vendor_xiaomi_tulip",
     "target_path": "vendor/xiaomi/tulip",
     "remote"     : "github",
