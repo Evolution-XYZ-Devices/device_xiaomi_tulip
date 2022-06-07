@@ -18,13 +18,16 @@
 -->
 <resources>
 
-    <!-- Height of the status bar in landscape. -->
-    <add-resource type="dimen" name="status_bar_height_portrait">24dp</add-resource>
+    <!-- Default height of the status bar. -->
+    <add-resource type="dimen" name="status_bar_height_default">24.0dp</add-resource>
+
+    <!-- Height of the status bar in portrait. -->
+    <add-resource type="dimen" name="status_bar_height_portrait">24.0dp</add-resource>
 
     <!-- Height of the status bar in landscape. -->
-    <add-resource type="dimen" name="status_bar_height_landscape">24dp</add-resource>
+    <add-resource type="dimen" name="status_bar_height_landscape">24.0dp</add-resource>
 
     <!-- Radius of the software rounded corners at the top of the display in its natural orientation. -->
-    <add-resource type="dimen" name="rounded_corner_radius_top">30px</add-resource>
+    <add-resource type="dimen" name="rounded_corner_radius_top">30.0px</add-resource>
 
 </resources>
