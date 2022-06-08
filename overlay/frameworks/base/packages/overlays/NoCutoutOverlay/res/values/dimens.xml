@@ -18,9 +18,6 @@
 -->
 <resources>
 
-    <!-- Default height of the status bar. -->
-    <add-resource type="dimen" name="status_bar_height_default">24.0dp</add-resource>
-
     <!-- Height of the status bar in portrait. -->
     <add-resource type="dimen" name="status_bar_height_portrait">24.0dp</add-resource>
 
