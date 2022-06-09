@@ -27,6 +27,9 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Quick Tap
+TARGET_SUPPORTS_QUICK_TAP := true
+
 # Evolution-X things
 EVO_BUILD_TYPE := OFFICIAL
 EVO_MAINTAINER := tedomi2705
