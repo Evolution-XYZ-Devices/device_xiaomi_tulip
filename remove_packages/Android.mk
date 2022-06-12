@@ -24,25 +24,20 @@ LOCAL_OVERRIDES_PACKAGES := \
 	Drive \
 	GCS \
 	GoogleCamera \
-	HelpRtcPrebuilt \
 	MaestroPrebuilt \
 	Maps \
-	MicropaperPrebuilt \
 	MyVerizonServices \
 	NgaResources \
 	OBDM_Permissions \
 	obdm_stub \
-	OdadPrebuilt \
 	OemDmTrigger \
 	Photos \
 	PrebuiltGmail \
 	RecorderPrebuilt \
 	SafetyHubPrebuilt \
-	SCONE \
 	ScribePrebuilt \
 	SecurityHubPrebuilt \
 	Showcase \
-	Snap \
 	SoundAmplifierPrebuilt \
 	SprintDM \
 	SprintHM \
