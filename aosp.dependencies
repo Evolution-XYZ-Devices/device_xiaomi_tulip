@@ -6,28 +6,16 @@
     "revision"   : "rebase"
  },
  {
-    "repository" : "LineageOS/android_hardware_qcom_display",
-    "target_path": "hardware/qcom-caf/msm8998/display",
-    "remote"     : "github",
-    "revision"   : "lineage-19.1-caf-msm8998"
- },
- {
-    "repository" : "LineageOS/android_hardware_qcom_media",
-    "target_path": "hardware/qcom-caf/msm8998/media",
-    "remote"     : "github",
-    "revision"   : "lineage-19.1-caf-msm8998"
- },
- {
-    "repository" : "LineageOS/android_hardware_qcom_audio",
-    "target_path": "hardware/qcom-caf/msm8998/audio",
-    "remote"     : "github",
-    "revision"   : "lineage-19.1-caf-msm8998"
- },
- {
    "repository" : "kdrag0n/proton-clang",
    "target_path": "prebuilts/clang/host/linux-x86/clang-proton",
    "branch"     : "master",
    "clone-depth": "1",
    "remote"     : "github"
+ },
+ {
+    "repository" : "Ardjlon/vendor_PixelLauncher",
+    "target_path": "vendor/PixelLauncher",
+    "remote"     : "github",
+    "revision"   : "ammit"
  }
 ]
