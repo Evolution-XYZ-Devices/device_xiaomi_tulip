@@ -419,3 +419,6 @@ PRODUCT_COPY_FILES += \
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/tulip/tulip-vendor.mk)
+
+# Inherit the Pixel Launcher Mod
+$(call inherit-product-if-exists, vendor/PixelLauncher/PixelLauncher.mk)
