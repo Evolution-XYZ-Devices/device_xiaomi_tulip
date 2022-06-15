@@ -924,8 +924,8 @@ vendor/firmware/a530_pfp.fw
 vendor/firmware/a530_pm4.fw
 vendor/firmware/a540_gpmu.fw2
 
-# IRQ balance - from jasmine
-vendor/bin/msm_irqbalance|e917104fbd26c844d27ffb2b7ec4f665fdfb8b78
+# IRQ balance - from m690-user 11 RKQ1.210607.001 00WW_3_440 release-keys
+vendor/bin/msm_irqbalance|b075c2f4092c175950a2c26d19bf2013e2efd6d5
 
 # Keymaster - from jasmine
 vendor/lib/libkeymasterdeviceutils.so|bc2aac023d99ec9e423d2f769019d187c99a8afb
