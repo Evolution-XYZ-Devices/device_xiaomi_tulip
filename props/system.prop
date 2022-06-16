@@ -38,6 +38,12 @@ ro.config.sdha_apps_bg_min=8
 # Netflix
 ro.netflix.bsp_rev=Q660-13149-1
 
+# Perfonmance
+debug.performance.tuning=1
+
+# Pre-rendering
+ro.vendor.perf.scroll_opt=true
+
 # Seamless transfer
 sys.fflag.override.settings_seamless_transfer=true
 
