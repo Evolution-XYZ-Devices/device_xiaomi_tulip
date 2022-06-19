@@ -32,6 +32,7 @@ LOCAL_OVERRIDES_PACKAGES := \
 	obdm_stub \
 	OemDmTrigger \
 	Photos \
+	PlayAutoInstallConfig \
 	PrebuiltGmail \
 	RecorderPrebuilt \
 	SafetyHubPrebuilt \
