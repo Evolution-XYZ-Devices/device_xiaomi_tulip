@@ -103,8 +103,8 @@ TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_tulip
 TARGET_RECOVERY_DEVICE_MODULES := libinit_tulip
 
 # Partitions
-SSI_PARTITIONS := system
-TREBLE_PARTITIONS := vendor
+SSI_PARTITIONS := product system system_ext
+TREBLE_PARTITIONS := odm vendor
 ALL_PARTITIONS := $(SSI_PARTITIONS) $(TREBLE_PARTITIONS)
 
 $(foreach p, $(call to-upper, $(ALL_PARTITIONS)), \
@@ -130,7 +130,6 @@ BOARD_ROOT_EXTRA_SYMLINKS := \
     /vendor/bt_firmware:/bt_firmware \
     /mnt/vendor/persist:/persist
 
-TARGET_COPY_OUT_PRODUCT := system/product
 TARGET_USERIMAGES_SPARSE_EXT_DISABLED := true
 TARGET_USERIMAGES_SPARSE_F2FS_DISABLED := true
 TARGET_USERIMAGES_USE_EXT4 := true
