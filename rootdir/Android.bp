@@ -8,7 +8,15 @@
 prebuilt_etc {
     name: "fstab.qcom",
     src: "etc/fstab.qcom",
+    required: ["fstab.qcom_ramdisk"],
     vendor: true,
+}
+
+prebuilt_etc {
+    name: "fstab.qcom_ramdisk",
+    src: "etc/fstab.qcom",
+    filename_from_src: true,
+    ramdisk: true,
 }
 
 prebuilt_etc {
