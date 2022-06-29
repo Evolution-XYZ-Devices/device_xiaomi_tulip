@@ -186,6 +186,10 @@ PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey \
     android.hardware.drm@1.4.vendor
 
+# Enable Google Go feature support
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/configs/lily_experience.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/lily_experience.xml
+
 # FM
 PRODUCT_PACKAGES += \
     FM2 \
