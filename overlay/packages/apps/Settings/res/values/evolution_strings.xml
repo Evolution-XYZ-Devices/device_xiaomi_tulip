@@ -17,5 +17,6 @@
 
     <!-- ROM maintainer name -->
     <string name="build_maintainer_summary">tedomi2705</string>
+    <string name="build_maintainer_telegram">https://t.me/tedomi2705</string>
 
 </resources>
