@@ -326,4 +326,10 @@
         <transport>hwbinder</transport>
         <fqname>@1.1::IMlipayService/default</fqname>
     </hal>
+    <hal format="hidl">
+        <name>com.fingerprints.extension</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IFingerprintNavigation/default</fqname>
+        <fqname>@1.0::IFingerprintSensorTest/default</fqname>
+    </hal>
 </manifest>
