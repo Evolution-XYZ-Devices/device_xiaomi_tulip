@@ -26,3 +26,4 @@ odm					/odm			ext4	ro	wait,logical,first_stage_mount
 
 /dev/block/bootdevice/by-name/boot                       /boot                emmc    defaults                                                                                        defaults
 /dev/block/bootdevice/by-name/recovery			 /recovery	      emmc    default											      recoveryonly
+/dev/block/by-name/logdump                               /metadata            ext4    noatime,nosuid,nodev,discard                                                                    wait,check,formattable,first_stage_mount
