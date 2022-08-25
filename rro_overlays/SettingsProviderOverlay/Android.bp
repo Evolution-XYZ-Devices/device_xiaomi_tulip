@@ -1,0 +1,6 @@
+runtime_resource_overlay {
+    name: "TulipSettingsProviderOverlay",
+    theme: "TulipSettingsProviderOverlay",
+    sdk_version: "current",
+    product_specific: true
+}

@@ -22,6 +22,7 @@ PRODUCT_PACKAGES += \
     SystemUIResOverlay \
     TelephonyOverlay \
     TulipNoCutoutOverlay \
+    TulipSettingsProviderOverlay \
     WifiOverlay
 
 # Soong namespaces
