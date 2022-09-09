@@ -200,7 +200,6 @@ PRODUCT_PACKAGES += \
 
 # Dynamic Partition
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
-PRODUCT_RETROFIT_DYNAMIC_PARTITIONS := true
 
 # Enable Google Go feature support
 PRODUCT_COPY_FILES += \
