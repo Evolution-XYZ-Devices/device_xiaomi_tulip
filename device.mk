@@ -195,7 +195,6 @@ PRODUCT_PACKAGES += \
 
 # Dynamic Partitions
 PRODUCT_BUILD_SUPER_PARTITION := true
-PRODUCT_RETROFIT_DYNAMIC_PARTITIONS := true
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # Enable Google Go feature support
