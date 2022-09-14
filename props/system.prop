@@ -26,7 +26,6 @@ sys.fflag.override.settings_seamless_transfer=true
 
 # Radio
 DEVICE_PROVISIONED=1
-persist.sys.fflag.override.settings_network_and_internet_v2=true
 ril.subscription.types=NV,RUIM
 telephony.lteOnCdmaDevice=1
 
