@@ -1,3 +1,5 @@
 allow rild diag_device:chr_file { ioctl open read write };
 
 get_prop(rild, vendor_pd_locater_dbg_prop)
+
+binder_call(rild, qtidataservices_app)
