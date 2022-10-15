@@ -14,7 +14,7 @@ function blob_fixup() {
             ;;
 
         vendor/lib/libMiWatermark.so)
-            "${PATCHELF}" --add-needed "libpiex-v29.so" "${2}"
+            grep -q "libpiex-v29.so" "${2}" || "${PATCHELF}" --add-needed "libpiex-v29.so" "${2}"
             ;;
     esac
 }
