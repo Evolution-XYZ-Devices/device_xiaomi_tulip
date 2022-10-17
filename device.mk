@@ -127,7 +127,6 @@ PRODUCT_PACKAGES += \
     AntHalService
 
 # APEX
-OVERRIDE_PRODUCT_COMPRESSED_APEX := false
 PRODUCT_PACKAGES += com.android.apex.cts.shim.v1_prebuilt
 PRODUCT_VENDOR_PROPERTIES := ro.apex.updatable=true
 
