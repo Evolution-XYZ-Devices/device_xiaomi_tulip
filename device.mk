@@ -40,8 +40,8 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/audio/sound_trigger_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_platform_info.xml
 
 # Camera
-PRODUCT_COPY_FILES += \
-    prebuilts/vndk/v29/arm/arch-arm-armv7-a-neon/shared/vndk-core/libpiex.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpiex-v29.so
+PRODUCT_PACKAGES += \
+    libpiex_shim
 
 # Consumerir
 BOARD_HAVE_IR := true
