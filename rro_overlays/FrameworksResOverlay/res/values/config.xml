@@ -93,6 +93,31 @@
         <item>"/system/lib64/libRSCpuRef.so"</item>
         <item>"/system/lib64/libblas.so"</item>
         <item>"/system/bin/surfaceflinger"</item>
+        <item>"/system/lib64/libEGL.so"</item>
+        <item>"/system/lib64/libGLESv1_CM.so"</item>
+        <item>"/system/lib64/libGLESv2.so"</item>
+        <item>"/system/lib64/libGLESv3.so"</item>
+        <item>"/system/lib64/libgui.so"</item>
+        <item>"/system/lib64/libhwui.so"</item>
+        <item>"/system/lib64/libui.so"</item>
+        <item>"/system/lib64/libvulkan.so"</item>
+        <item>"/vendor/lib64/egl/eglSubDriverAndroid.so"</item>
+        <item>"/vendor/lib64/egl/libEGL_adreno.so"</item>
+        <item>"/vendor/lib64/egl/libGLESv1_CM_adreno.so"</item>
+        <item>"/vendor/lib64/egl/libGLESv2_adreno.so"</item>
+        <item>"/vendor/lib64/egl/libQTapGLES.so"</item>
+        <item>"/vendor/lib64/egl/libq3dtools_adreno.so"</item>
+        <item>"/vendor/lib64/egl/libq3dtools_esx.so"</item>
+        <item>"/vendor/lib64/hw/vulkan.adreno.so"</item>
+        <item>"/vendor/lib64/libC2D2.so"</item>
+        <item>"/vendor/lib64/libCB.so"</item>
+        <item>"/vendor/lib64/libOpenCL.so"</item>
+        <item>"/vendor/lib64/libRSDriver_adreno.so"</item>
+        <item>"/vendor/lib64/libadreno_utils.so"</item>
+        <item>"/vendor/lib64/libbccQTI.so"</item>
+        <item>"/vendor/lib64/libgsl.so"</item>
+        <item>"/vendor/lib64/libllvm-glnext.so"</item>
+        <item>"/vendor/lib64/libllvm-qcom.so"</item>
     </string-array>
 
     <!-- Night display color temperature calibration -->
