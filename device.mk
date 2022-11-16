@@ -19,7 +19,8 @@ PRODUCT_SHIPPING_API_LEVEL := 27
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(DEVICE_PATH)/overlay
+    $(DEVICE_PATH)/overlay \
+    $(DEVICE_PATH)/overlay-evolution
 
 PRODUCT_PACKAGES += \
     TulipNoCutoutOverlay
