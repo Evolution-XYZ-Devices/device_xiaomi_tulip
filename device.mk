@@ -213,6 +213,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     GoogleCameraLite
 
+# Google Deskclock permission
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/configs/default-permissions_com.google.android.deskclock.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/default-permissions_com.google.android.deskclock.xml
+
 # GPS / Location
 PRODUCT_PACKAGES += \
     android.hardware.gnss@2.0-impl-qti \
