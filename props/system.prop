@@ -22,7 +22,6 @@ renderthread.skia.reduceopstasksplitting=true
 ro.netflix.bsp_rev=Q660-13149-1
 
 # Radio
-DEVICE_PROVISIONED=1
 ril.subscription.types=NV,RUIM
 telephony.lteOnCdmaDevice=1
 
