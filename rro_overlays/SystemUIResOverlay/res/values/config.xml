@@ -25,4 +25,7 @@
 
     <!-- Threshold in micro watts above which a charger is rated as "fast"; 1.375 A @ 4.00 V = 5.50 W -->
     <integer name="config_chargingFastThreshold">5500000</integer>
+
+    <!-- The CPU temperature divider, if needed -->
+    <integer name="config_cpuTempDivider" translatable="false">1000</integer>
 </resources>
