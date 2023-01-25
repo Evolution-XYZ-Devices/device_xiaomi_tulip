@@ -108,6 +108,10 @@ persist.vendor.camera.perflock.enable=0
 vendor.video.disable.ubwc=1
 vidc.enc.dcvs.extra-buff-count=2
 
+# Configure EGL blobcache
+ro.egl.blobcache.multifile=true
+ro.egl.blobcache.multifile_limit=134217728
+
 # dex2oat
 dalvik.vm.boot-dex2oat-cpu-set=0,1,2,3,4,5,6,7
 dalvik.vm.boot-dex2oat-threads=8
