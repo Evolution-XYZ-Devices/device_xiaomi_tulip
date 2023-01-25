@@ -5,6 +5,10 @@ genfscon sysfs /devices/soc/c176000.i2c/i2c-2/2-001d            u:object_r:sysfs
 genfscon sysfs /devices/soc/ca0c000.qcom,cci/ca0c000.qcom,cci:qcom,camera@3/video4linux/video5/name                                     u:object_r:sysfs_graphics:s0
 genfscon sysfs /camera_sensorid/sensorid                        u:object_r:sysfs_graphics:s0
 
+# Extcon sysfs
+genfscon sysfs /devices/soc/800f000.qcom,spmi/spmi-0/spmi0-00/800f000.qcom,spmi:qcom,pm660@0:qcom,qpnp-smb2/extcon u:object_r:sysfs_extcon:s0
+genfscon sysfs /devices/soc/800f000.qcom,spmi/spmi-0/spmi0-00/800f000.qcom,spmi:qcom,pm660@0:qcom,usb-pdphy@1700/extcon u:object_r:sysfs_extcon:s0
+
 # Fingerprint
 genfscon sysfs /devices/soc/soc:fingerprint_fpc/device_prepare  u:object_r:sysfs_fingerprint:s0
 genfscon sysfs /devices/soc/soc:fingerprint_fpc/fingerdown_wait u:object_r:sysfs_fingerprint:s0
