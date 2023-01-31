@@ -407,5 +407,8 @@
     <!-- Maximum color temperature, in Kelvin, supported by Night display.
          Setting this to track the default color temperature value (currently 6500K). -->
     <integer name="config_nightDisplayColorTemperatureMax">6500</integer>
+
+     <!-- Whether device supports in-display fingerprint -->
+     <bool name="config_supportsUdfps">false</bool>
     
 </resources>
