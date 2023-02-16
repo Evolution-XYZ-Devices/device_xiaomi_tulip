@@ -1,0 +1,12 @@
+[
+ {
+    "repository" : "vendor_xiaomi_tulip",
+    "target_path": "vendor/xiaomi/tulip",
+    "branch"     : "tiramisu"
+ },
+ {
+    "repository" : "kernel_xiaomi_sdm660",
+    "target_path": "kernel/xiaomi/sdm660",
+    "branch"     : "12.1"
+ }
+]
