@@ -31,5 +31,8 @@ genfscon sysfs /devices/virtual/graphics/fb2                    u:object_r:sysfs
 genfscon sysfs /devices/platform/soc/soc:qcom,gpubw             u:object_r:sysfs_devfreq:s0
 genfscon sysfs /devices/platform/soc/soc:qcom,cpubw             u:object_r:sysfs_devfreq:s0
 
+# ProcFS
+genfscon proc /sys/vm/dirty_writeback_centisecs                       u:object_r:proc_dirty:s0
+
 # Touchpanel
 genfscon sysfs /touchpanel                                      u:object_r:sysfs_touchpanel:s0
