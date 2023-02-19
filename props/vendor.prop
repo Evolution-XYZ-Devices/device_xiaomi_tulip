@@ -1,9 +1,3 @@
-# App launch prefetching (IORapd)
-ro.iorapd.enable=false
-iorapd.perfetto.enable=false
-iorapd.readahead.enable=false
-persist.device_config.runtime_native_boot.iorap_readahead_enable=false
-
 # Audio
 af.fast_track_multiplier=1
 vendor.audio_hal.period_size=240

@@ -1,3 +1,9 @@
+# App launch prefetching (IORapd)
+ro.iorapd.enable=false
+iorapd.perfetto.enable=false
+iorapd.readahead.enable=false
+persist.device_config.runtime_native_boot.iorap_readahead_enable=false
+
 # Bluetooth
 bluetooth.device.class_of_device=90,2,12
 bluetooth.hardware.power.operating_voltage_mv=3300
@@ -18,3 +24,6 @@ bluetooth.profile.sap.server.enabled=true
 
 # DPM
 persist.vendor.dpm.feature=11
+
+# RIL
+persist.vendor.qti.telephony.vt_cam_interface=2
