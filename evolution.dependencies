@@ -7,7 +7,7 @@
  {
     "repository" : "kernel_xiaomi_sdm660",
     "target_path": "kernel/xiaomi/sdm660",
-    "branch"     : "12.1"
+    "branch"     : "tiramisu"
  },
  {
    "repository" : "GhostMaster69-dev/cosmic-clang",
