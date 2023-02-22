@@ -15,12 +15,18 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 PRODUCT_SHIPPING_API_LEVEL := 27
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(DEVICE_PATH)/overlay \
-    $(DEVICE_PATH)/overlay-evolution
-
 PRODUCT_PACKAGES += \
-    TulipNoCutoutOverlay
+    ApertureOverlay \
+    CarrierConfigOverlay \
+    CellBroadcastReceiverOverlay \
+    DeviceConfigOverlay \
+    FrameworksResOverlay \
+    SettingsProviderOverlay \
+    SettingsResOverlay \
+    SystemUIResOverlay \
+    TelephonyOverlay \
+    TulipNoCutoutOverlay \
+    WifiOverlay
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
@@ -434,7 +440,6 @@ PRODUCT_PACKAGES += \
     hostapd \
     libwifi-hal-qcom \
     libwpa_client \
-    WifiOverlay \
     wpa_supplicant \
     wpa_supplicant.conf
 
