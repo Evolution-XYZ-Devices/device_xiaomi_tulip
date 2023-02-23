@@ -8,12 +8,5 @@
     "repository" : "kernel_xiaomi_sdm660",
     "target_path": "kernel/xiaomi/sdm660",
     "branch"     : "tiramisu"
- },
- {
-   "repository" : "GhostMaster69-dev/cosmic-clang",
-   "target_path": "prebuilts/clang/host/linux-x86/clang-cosmic",
-   "branch"     : "master",
-   "clone-depth": "1",
-   "remote"     : "gitlab"
  }
 ]
