@@ -290,6 +290,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.lights-service.tulip
 
+# Lineage Health
+PRODUCT_PACKAGES += \
+    vendor.lineage.health-service.default
+
 # Media
 PRODUCT_PACKAGES += \
     android.hardware.media.c2@1.1.vendor \
