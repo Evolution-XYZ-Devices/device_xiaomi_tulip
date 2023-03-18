@@ -81,6 +81,7 @@ vendor.audio.adm.buffering.ms=6
 
 # Bluetooth
 vendor.qcom.bluetooth.soc=cherokee
+persist.vendor.bt.a2dp_offload_cap=sbc-aptx-aptxhd-aac
 
 # Camera
 persist.vendor.bokeh.switch.lux=290
