@@ -1119,11 +1119,8 @@ vendor/radio/qcril_database/qcril.db|86286c24a227cb968dac1f7ccfe0ad26fe4fd462
 system_ext/app/imssettings/imssettings.apk|8e27882a4ecd10d69a5774b2834781cc60628a3f
 system_ext/app/uceShimService/uceShimService.apk|3b5b6fb89581e92eb151fcc9ddffe53609e6dd4c
 system_ext/lib64/lib-imscamera.so|49ead972646b09d700556d63676673b3e8af2036
-system_ext/lib64/lib-imsvideocodec.so|47512183b3330ad566d241149c4e16f33122dab1
 system_ext/lib64/lib-imsvt.so|4f96cc5f27551d0b6cb11ad6447d9ce8829dde47
 system_ext/lib64/lib-imsvtextutils.so|336c0ffed49a0a4605f41b488771ee0217fa80f0
-system_ext/lib64/lib-imsvtutils.so|b4a39a247f767723ce67182ee92f526c029a019d
-system_ext/lib64/libimscamera_jni.so|486abdb09a82ccee5e49307a17ba3dc9efdf5e9d
 system_ext/lib64/libimsmedia_jni.so|f8be2575f8eaef8bb89a4bc049381ebffe857831
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so|4cf9e97f526c6278c5e2136e00d1fb800fb941aa
 system_ext/priv-app/ims/ims.apk|a7efccc4a143b36493cc7f0226fecde61c93c4ec
@@ -1174,6 +1171,11 @@ vendor/lib64/vendor.qti.ims.rcsconfig@2.0.so|bd0db76d555c51971dcfcce62d981f987af
 vendor/lib64/vendor.qti.ims.rcsconfig@2.1.so|f52f0cd5e19455eba97dea61542217d4aa5c1841
 vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so|0613dc47603180efd13a0dea6bdb22a5068aee8d
 vendor/lib64/vendor.qti.imsrtpservice@3.0.so|460e589128fce0b0e83bb3c75aa32f7e1a9494fd
+
+# Radio (IMS VT) - from missi_phonenonab_eea-user 13 TKQ1.221013.002 V14.0.2.0.TKFEUXM release-keys
+system_ext/lib64/lib-imsvideocodec.so|3fa5444a061dd5af35f924744dc6a73d535cedf6
+system_ext/lib64/lib-imsvtutils.so|6df6279955493da11860bb048db38f01ec05c2aa
+system_ext/lib64/libimscamera_jni.so|f6b7647cfe080baeed006c932b495ff94b5685a7
 
 # Radio - IMS - from motorola/nio_retcn/nio: 11/RRN31.Q3-1-11-6/f81cc:user/release-keys
 vendor/lib64/deviceInfoServiceModule.so|c7d4021528f3a43320d0f109a9ed5f765a6a92a2
