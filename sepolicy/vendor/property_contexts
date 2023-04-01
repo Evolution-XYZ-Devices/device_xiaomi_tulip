@@ -36,9 +36,6 @@ ro.boot.fpsensor                        u:object_r:hal_fingerprint_prop:s0
 sys.fp.                                 u:object_r:hal_fingerprint_prop:s0
 
 # Fling
-ro.min.fling_velocity                   u:object_r:vendor_default_prop:s0
-ro.max.fling_velocity                   u:object_r:vendor_default_prop:s0
-#ro.vendor.qti.cgroup_follow.enable      u:object_r:vendor_default_prop:s0
 ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats u:object_r:vendor_default_prop:s0
 
 # Media
