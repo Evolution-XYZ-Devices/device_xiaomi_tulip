@@ -87,4 +87,12 @@
 
     <!-- Indicate the device support request channel on Wi-Fi Aware data-path. -->
     <bool translatable="false" name="config_wifiSupportChannelOnDataPath">true</bool>
+
+    <!-- Integer parameters of the wifi to cellular handover feature wifi should not stick to bad networks -->
+    <!-- Integer thresholds, do not connect to APs with RSSI lower than these values  -->
+    <integer translatable="false" name="config_wifi_framework_wifi_score_entry_rssi_threshold_5GHz">-85</integer>
+    <integer translatable="false" name="config_wifi_framework_wifi_score_entry_rssi_threshold_24GHz">-80</integer>
+    <!-- Integer thresholds for low network score, should be somewhat less than the entry thresholds -->
+    <integer translatable="false" name="config_wifi_framework_wifi_score_bad_rssi_threshold_5GHz">-90</integer>
+    <integer translatable="false" name="config_wifi_framework_wifi_score_bad_rssi_threshold_24GHz">-83</integer>
 </resources>
