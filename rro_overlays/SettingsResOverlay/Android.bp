@@ -5,8 +5,8 @@
 //
 
 runtime_resource_overlay {
-    name: "SettingResOverlay",
-    theme: "SettingResOverlay",
+    name: "SettingsResOverlay",
+    theme: "SettingsResOverlay",
     sdk_version: "current",
     product_specific: true,
 }
