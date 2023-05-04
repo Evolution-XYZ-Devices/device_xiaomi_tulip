@@ -25,8 +25,4 @@
 
     <!-- Threshold in micro watts above which a charger is rated as "fast"; 1.375 A @ 4.00 V = 5.50 W -->
     <integer name="config_chargingFastThreshold">5500000</integer>
-    
-    <!-- Whether the combined qs shows in status bar when true, the combined qs will not be available
-         if set it to false  -->
-    <bool name="flag_combined_qs_headers">false</bool>
 </resources>
