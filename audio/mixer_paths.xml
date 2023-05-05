@@ -2654,6 +2654,16 @@
         <path name="low-latency-playback bt-a2dp" />
         <path name="low-latency-playback speaker" />
     </path>
+    
+    <path name="low-latency-playback speaker-and-bt-sco">
+      <path name="low-latency-playback speaker" />
+      <path name="low-latency-playback bt-sco"  />
+    </path>
+
+    <path name="low-latency-playback speaker-and-bt-sco-wb">
+      <path name="low-latency-playback speaker" />
+      <path name="low-latency-playback bt-sco-wb" />
+    </path>
 
     <path name="compress-offload-playback2 speaker-and-bt-a2dp">
         <path name="compress-offload-playback2 bt-a2dp" />
