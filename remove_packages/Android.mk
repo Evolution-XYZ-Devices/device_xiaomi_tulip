@@ -21,6 +21,8 @@ LOCAL_OVERRIDES_PACKAGES := \
     MaestroPrebuilt \
     Maps \
     Photos \
+    PixelLiveWallpaperPrebuilt \
+    PixelWallpapers2022 \
     PlayAutoInstallConfig \
     PrebuiltGmail \
     RecorderPrebuilt \
@@ -30,6 +32,7 @@ LOCAL_OVERRIDES_PACKAGES := \
     SoundAmplifierPrebuilt \
     SprintHM \
     talkback \
+    Tycho \
     VZWAPNLib \
     VzwOmaTrigger \
     WfcActivation
