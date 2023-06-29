@@ -24,7 +24,7 @@
 # Inherit from sdm660-common
 $(call inherit-product, device/xiaomi/sdm660-common/sdm660.mk)
 
-DEVICE_PATH := device/xiaomi/twolip
+DEVICE_PATH := device/xiaomi/tulip
 
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
@@ -57,12 +57,13 @@ BOARD_HAVE_QCOM_FM := true
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(DEVICE_PATH)/overlay \
-    $(DEVICE_PATH)/overlay-lineage
+    $(DEVICE_PATH)/overlay
 
 PRODUCT_PACKAGES += \
     NoCutoutOverlay \
-    AvoidAppsInCutoutOverlay
+    AvoidAppsInCutoutOverlay \
+    ApertureOverlay \
+    EvolutionSettingsOverlay
 
 # Ramdisk
 PRODUCT_PACKAGES += \
@@ -86,4 +87,4 @@ PRODUCT_PACKAGES += \
     TulipWifiOverlay
 
 # Inherit the proprietary files
-$(call inherit-product, vendor/xiaomi/twolip/twolip-vendor.mk)
+$(call inherit-product, vendor/xiaomi/tulip/tulip-vendor.mk)
