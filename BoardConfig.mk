@@ -56,6 +56,7 @@ TARGET_KERNEL_CONFIG := tulip_defconfig
 TARGET_KERNEL_CLANG_VERSION := cosmic
 TARGET_KERNEL_CLANG_PATH := $(abspath .)/prebuilts/clang/clang-$(TARGET_KERNEL_CLANG_VERSION)
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-gnu-
+KERNEL_CC := CC=clang
 
 # QCOM hardware
 BOARD_USES_QCOM_HARDWARE := true
