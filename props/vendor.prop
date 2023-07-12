@@ -147,7 +147,6 @@ vendor.gralloc.enable_fb_ubwc=1
 # Fling
 ro.min.fling_velocity=160 
 ro.max.fling_velocity=20000
-ro.max.fling_velocity=20000 
 ro.vendor.qti.cgroup_follow.enable=true 
 persist.vendor.qti.inputopts.enable=true 
 persist.vendor.qti.inputopts.movetouchslop=0.6 
