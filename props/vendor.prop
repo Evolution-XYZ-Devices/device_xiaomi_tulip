@@ -110,7 +110,7 @@ vidc.enc.dcvs.extra-buff-count=2
 
 # Configure EGL blobcache
 ro.egl.blobcache.multifile=true
-ro.egl.blobcache.multifile_limit=134217728
+ro.egl.blobcache.multifile_limit=33554432
 
 # dex2oat
 dalvik.vm.boot-dex2oat-cpu-set=0,1,2,3,4,5,6,7
