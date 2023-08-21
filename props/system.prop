@@ -10,9 +10,6 @@ persist.vendor.cne.feature=1
 # Dalvik
 dalvik.vm.dex2oat64.enabled=true
 
-# Dex2oat
-ro.sys.fw.dex2oat_thread_count=8
-
 # Display
 debug.hwui.use_hint_manager=true
 debug.hwui.target_cpu_time_percent=20
