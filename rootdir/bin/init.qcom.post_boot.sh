@@ -2412,6 +2412,12 @@ case "$target" in
             "317" | "324" | "325" | "326" )
             start vendor.cdsprpcd
         esac
+        
+        # Disable cdsprpcd service for sdm636
+        case "$soc_id" in
+            "345" )
+            setprop vendor.fastrpc.disable.cdsprpcd.daemon 1
+        esac
 
         #Apply settings for sdm630 and Tahaa
         case "$soc_id" in
