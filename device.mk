@@ -21,7 +21,6 @@ PRODUCT_PACKAGES += \
     CellBroadcastReceiverOverlay \
     DeviceConfigOverlay \
     FrameworksResOverlay \
-    SettingsProviderOverlay \
     SettingsResOverlay \
     SystemUIResOverlay \
     TelephonyOverlay \
