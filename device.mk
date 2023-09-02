@@ -19,7 +19,6 @@ PRODUCT_PACKAGES += \
     ApertureOverlay \
     CarrierConfigOverlay \
     CellBroadcastReceiverOverlay \
-    DeviceConfigOverlay \
     FrameworksResOverlay \
     SettingsResOverlay \
     SystemUIResOverlay \
