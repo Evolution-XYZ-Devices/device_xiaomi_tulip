@@ -319,7 +319,7 @@ on charger
     setprop sys.usb.configfs 1
     start power_off_alarm
     chown system system /sys/class/leds/red/brightness
-    write /sys/class/leds/red/brightness 255
+    write /sys/class/leds/white/brightness 255
 
 service vendor.hvdcp_opti /system/vendor/bin/hvdcp_opti
      class main
