@@ -19,6 +19,7 @@ cc_binary {
     proprietary: true,
     srcs: [
         "FastCharge.cpp",
+        "RestrictedCurrent.cpp",
         "service.cpp",
     ],
     init_rc: [ "vendor.lineage.fastcharge@1.0-service.qcom.rc" ],

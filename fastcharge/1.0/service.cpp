@@ -20,24 +20,33 @@
 #include <hidl/HidlTransportSupport.h>
 
 #include "FastCharge.h"
+#include "RestrictedCurrent.h"
 
 using android::hardware::configureRpcThreadpool;
 using android::hardware::joinRpcThreadpool;
 
 using vendor::lineage::fastcharge::V1_0::IFastCharge;
 using vendor::lineage::fastcharge::V1_0::implementation::FastCharge;
+using vendor::lineage::fastcharge::V1_0::implementation::RestrictedCurrent;
 
 using android::OK;
 using android::status_t;
 
 int main() {
-    android::sp<FastCharge> service = new FastCharge();
+    android::sp<FastCharge> scharge = new FastCharge();
+    android::sp<RestrictedCurrent> scurrent = new RestrictedCurrent();
 
     configureRpcThreadpool(1, true);
 
-    status_t status = service->registerAsService();
+    status_t status = scharge->registerAsService();
     if (status != OK) {
-        LOG(ERROR) << "Cannot register FastCharge HAL service.";
+      LOG(ERROR) << "Could not register service for FastCharge HAL FastCharge Iface.";
+      return 1;
+    }
+
+    status = scurrent->registerAsService();
+    if (status != OK) {
+        LOG(ERROR) << "Could not register service for FastCharge HAL RestrictedCurrent Iface.";
         return 1;
     }
 
@@ -45,6 +54,7 @@ int main() {
 
     joinRpcThreadpool();
 
-    LOG(ERROR) << "FastCharge HAL service failed to join thread pool.";
+    // In normal operation, we don't expect the thread pool to shutdown
+    LOG(ERROR) << "FastCharge HAL service is shutting down.";
     return 1;
 }

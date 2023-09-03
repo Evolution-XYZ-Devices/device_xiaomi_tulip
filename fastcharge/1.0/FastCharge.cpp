@@ -20,7 +20,6 @@
 
 #include "FastCharge.h"
 #include <android-base/logging.h>
-#include <cutils/properties.h>
 
 #include <fstream>
 #include <iostream>
@@ -30,8 +29,6 @@ namespace lineage {
 namespace fastcharge {
 namespace V1_0 {
 namespace implementation {
-
-static constexpr const char* kFastChargingProp = "persist.vendor.fastchg_enabled";
 
 /*
  * Write value to path and close file.
@@ -76,21 +73,20 @@ static T get(const std::string& path, const T& def) {
     }
 }
 
-FastCharge::FastCharge() {
-    setEnabled(property_get_bool(kFastChargingProp, FASTCHARGE_DEFAULT_SETTING));
-}
+FastCharge::FastCharge() {}
 
 Return<bool> FastCharge::isEnabled() {
     return get(FASTCHARGE_PATH, 0) < 1;
 }
 
 Return<bool> FastCharge::setEnabled(bool enable) {
+    bool success = false;
     set(FASTCHARGE_PATH, enable ? 0 : 1);
 
-    bool enabled = isEnabled();
-    property_set(kFastChargingProp, enabled ? "true" : "false");
-
-    return enabled;
+    if (enable == isEnabled()){
+        success = true;
+    }
+    return success;
 }
 
 }  // namespace implementation
