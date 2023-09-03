@@ -205,6 +205,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     fastbootd
 
+# Fast Charge HAL
+PRODUCT_PACKAGES += \
+    vendor.lineage.fastcharge@1.0-service.qcom
+
 # FM
 PRODUCT_PACKAGES += \
     FM2 \
