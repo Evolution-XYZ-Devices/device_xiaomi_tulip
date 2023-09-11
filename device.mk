@@ -393,10 +393,6 @@ PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
 WITH_DEXPREOPT_DEBUG_INFO := false
 DONT_DEXPREOPT_PREBUILTS := true
 
-PRODUCT_DEXPREOPT_SPEED_APPS += \
-    Settings \
-    SystemUIGoogle
-
 PRODUCT_PACKAGES += \
     ims-ext-common \
     ims_ext_common.xml \
