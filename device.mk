@@ -30,8 +30,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(DEVICE_PATH) \
     hardware/google/interfaces \
-    hardware/google/pixel \
-    hardware/xiaomi
+    hardware/google/pixel
 
 # Permissions
 PRODUCT_COPY_FILES += \
