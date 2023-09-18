@@ -21,7 +21,6 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity;
-import com.android.settingslib.widget.R;
 
 public class KcalSettingsActivity extends CollapsingToolbarBaseActivity {
 
@@ -31,8 +30,8 @@ public class KcalSettingsActivity extends CollapsingToolbarBaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.preview_kcal);
-        getFragmentManager().beginTransaction().replace(R.id.fragment_kcal, new KcalSettingsFragment(), TAG).commit();
+        setContentView(com.android.settingslib.collapsingtoolbar.R.layout.preview_kcal);
+        getFragmentManager().beginTransaction().replace(com.android.settingslib.collapsingtoolbar.R.id.fragment_kcal, new KcalSettingsFragment(), TAG).commit();
     }
 
     @Override
