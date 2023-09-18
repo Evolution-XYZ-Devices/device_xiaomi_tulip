@@ -25,8 +25,9 @@
     <bool name="config_maskMainBuiltInDisplayCutout">true</bool>
 
     <!-- Height of the status bar -->
-    <dimen name="status_bar_height_portrait">24dp</dimen>
-    <dimen name="status_bar_height_landscape">24dp</dimen>
-    <dimen name="rounded_corner_radius_top">10px</dimen>
+    <dimen name="status_bar_height">26dp</dimen>
+    <dimen name="status_bar_height_default">26dp</dimen>
+    <dimen name="status_bar_height_portrait">26dp</dimen>
+    <dimen name="status_bar_height_landscape">26dp</dimen>
 
 </resources>
