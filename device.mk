@@ -425,7 +425,8 @@ PRODUCT_PACKAGES += \
 
 # Thermal
 PRODUCT_PACKAGES += \
-    android.hardware.thermal@2.0-service.qti
+    android.hardware.thermal@1.0-impl:64 \
+    android.hardware.thermal@1.0-service
 
 # Tetheroffload
 PRODUCT_PACKAGES += \
