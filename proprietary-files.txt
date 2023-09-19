@@ -1223,7 +1223,7 @@ vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|e47baed52f1c0637de34fa55e45a86b
 
 # Widevine - from jasmine
 vendor/bin/hw/android.hardware.drm@1.2-service.widevine|1aed116c6cd73ee0c89a5eec050afab5c64b9f87
-vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|dee5b7838ac561a2292e89fc0c4ccd1932224215
+vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|2ad5f63e31a42a63d8d761dffc71d8c24151877d
 vendor/lib64/libwvhidl.so|38677623330ec145a62afdef110c713c9492671c
 
 # Wifi - from jasmine V11.0.8.0.QDIMIXM
