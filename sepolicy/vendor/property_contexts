@@ -38,7 +38,7 @@ sys.fp.                                 u:object_r:hal_fingerprint_prop:s0
 # Fling
 ro.min.fling_velocity                   u:object_r:vendor_default_prop:s0
 ro.max.fling_velocity                   u:object_r:vendor_default_prop:s0
-#ro.vendor.qti.cgroup_follow.enable      u:object_r:vendor_default_prop:s0
+ro.vendor.qti.cgroup_follow.enable      u:object_r:vendor_default_prop:s0
 ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats u:object_r:vendor_default_prop:s0
 
 # Media
@@ -59,6 +59,8 @@ ro.fota.oem                             u:object_r:telephony_status_prop:s0
 ro.miui.                                u:object_r:telephony_status_prop:s0
 ro.product.mod_device                   u:object_r:telephony_status_prop:s0
 persist.vendor.qti.telephony.           u:object_r:telephony_status_prop:s0
+
+persist.vendor.qti.telephony.vt_cam_interface  u:object_r:vendor_default_prop:s0
 
 # Thermal engine
 persist.sys.thermal.                    u:object_r:thermal_engine_prop:s0
