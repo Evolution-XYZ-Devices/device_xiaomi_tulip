@@ -21,7 +21,6 @@ debug.hwui.target_cpu_time_percent=20
 ro.netflix.bsp_rev=Q660-13149-1
 
 # Radio
-persist.sys.fflag.override.settings_network_and_internet_v2=true
 ril.subscription.types=NV,RUIM
 telephony.lteOnCdmaDevice=1
 
