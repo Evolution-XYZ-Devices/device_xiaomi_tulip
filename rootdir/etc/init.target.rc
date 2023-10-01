@@ -325,7 +325,7 @@ on charger
     start qcom-post-boot
     start vendor.hvdcp_opti
     setprop sys.usb.configfs 1
-    start power_off_alarm
+    start vendor.power_off_alarm
     chown system system /sys/class/leds/red/brightness
     write /sys/class/leds/white/brightness 255
 
