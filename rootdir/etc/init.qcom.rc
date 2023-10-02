@@ -551,9 +551,6 @@ on charger
     setprop persist.sys.usb.config mass_storage
     start qcom-post-boot
 
-on property:vendor.display.lcd_density=*
-    setprop ro.sf.lcd_density ${vendor.display.lcd_density}
-
 # Set vendor-ril lib path based on Meta version
 on property:vendor.rild.libpath=*
     setprop rild.libpath ${vendor.rild.libpath}
