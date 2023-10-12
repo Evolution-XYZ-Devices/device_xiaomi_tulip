@@ -1,0 +1,6 @@
+runtime_resource_overlay {
+    name: "Launcher3Overlay",
+    theme: "Launcher3Overlay",
+    sdk_version: "current",
+    product_specific: true
+}

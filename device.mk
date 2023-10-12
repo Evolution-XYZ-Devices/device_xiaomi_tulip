@@ -20,6 +20,7 @@ PRODUCT_PACKAGES += \
     CarrierConfigOverlay \
     CellBroadcastReceiverOverlay \
     FrameworksResOverlay \
+    Launcher3Overlay \
     SettingsResOverlay \
     SystemUIResOverlay \
     TelephonyOverlay \
