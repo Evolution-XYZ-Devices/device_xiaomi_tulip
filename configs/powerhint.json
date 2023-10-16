@@ -95,8 +95,8 @@
       "Name": "GPUIdleTimer",
       "Path": "/sys/class/kgsl/kgsl-3d0/idle_timer",
       "Values": [
-        "5000",
-        "80"
+        "10000",
+        "58"
       ],
       "ResetOnInit": true
     },
@@ -105,7 +105,7 @@
       "Path": "/dev/stune/schedtune.boost",
       "Values": [
         "50",
-        "10"
+        "1"
       ],
       "ResetOnInit": true
     },
@@ -189,7 +189,7 @@
       "Name": "PMQoSCpuDmaLatency",
       "Path": "/dev/cpu_dma_latency",
       "Values": [
-        "43",
+        "42",
         "100"
       ],
       "HoldFd": true
@@ -341,7 +341,7 @@
       "PowerHint": "LAUNCH",
       "Node": "PMQoSCpuDmaLatency",
       "Duration": 3000,
-      "Value": "43"
+      "Value": "42"
     },
     {
       "PowerHint": "LAUNCH",
@@ -371,7 +371,7 @@
       "PowerHint": "LAUNCH",
       "Node": "GPUIdleTimer",
       "Duration": 3000,
-      "Value": "5000"
+      "Value": "10000"
     },
     {
       "PowerHint": "AUDIO_LAUNCH",
@@ -383,7 +383,7 @@
       "PowerHint": "AUDIO_LAUNCH",
       "Node": "PMQoSCpuDmaLatency",
       "Duration": 2000,
-      "Value": "43"
+      "Value": "42"
     },
     {
       "PowerHint": "AUDIO_STREAMING_LOW_LATENCY",
@@ -395,7 +395,7 @@
       "PowerHint": "AUDIO_STREAMING_LOW_LATENCY",
       "Node": "PMQoSCpuDmaLatency",
       "Duration": 0,
-      "Value": "43"
+      "Value": "42"
     },
     {
       "PowerHint": "EXPENSIVE_RENDERING",
