@@ -230,4 +230,5 @@ persist.sys.binary_xml=false
 persist.vendor.delta_time.enable=true
 
 # Zygote
+ro.zygote.disable_gl_preload=true
 zygote.critical_window.minute=10
