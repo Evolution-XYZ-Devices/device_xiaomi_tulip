@@ -384,7 +384,7 @@ PRODUCT_PACKAGES += \
 
 # QNS
 PRODUCT_PACKAGES += \
-    libstdc++.vendor
+    libstdc++_vendor
 
 # RenderScript HAL
 PRODUCT_PACKAGES += \
