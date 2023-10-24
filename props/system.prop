@@ -10,9 +10,8 @@ persist.vendor.cne.feature=1
 # Dalvik
 dalvik.vm.dex2oat64.enabled=true
 
-# Display
-debug.hwui.use_hint_manager=true
-debug.hwui.target_cpu_time_percent=20
+# Dex2oat
+ro.sys.fw.dex2oat_thread_count=8
 
 # Netflix
 ro.netflix.bsp_rev=Q660-13149-1
