@@ -113,13 +113,12 @@ ro.egl.blobcache.multifile=true
 ro.egl.blobcache.multifile_limit=33554432
 
 # dex2oat
+dalvik.vm.background-dex2oat-cpu-set=0,1,2,3,4,5,6,7
+dalvik.vm.background-dex2oat-threads=8
 dalvik.vm.boot-dex2oat-cpu-set=0,1,2,3,4,5,6,7
 dalvik.vm.boot-dex2oat-threads=8
 dalvik.vm.dex2oat-cpu-set=0,1,2,3,4,5,6,7
 dalvik.vm.dex2oat-threads=8
-dalvik.vm.restore-dex2oat-cpu-set=0,1,2,3,4,5,6,7
-dalvik.vm.restore-dex2oat-threads=8
-dalvik.vm.dex2oat-filter=speed-profile
 dalvik.vm.minidebuginfo=false
 dalvik.vm.dex2oat-minidebuginfo=false
 
