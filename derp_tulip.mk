@@ -20,6 +20,11 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := false
 # Disable blurs
 TARGET_NOT_USES_BLUR := true
 
+# Next Generation Assistant
+PRODUCT_PACKAGES += \
+    NgaResources \
+    nga
+
 # Device Info
 PRODUCT_NAME := derp_tulip
 PRODUCT_DEVICE := tulip
