@@ -9,6 +9,3 @@ type blkio, file_type;
 
 # Kcal
 type sysfs_kcal, fs_type, sysfs_type;
-
-# FPS Info
-type sysfs_fps, fs_type, sysfs_type;
