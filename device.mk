@@ -6,8 +6,6 @@
 
 DEVICE_PATH := device/xiaomi/tulip
 
-OVERRIDE_PRODUCT_COMPRESSED_APEX := false
-
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
@@ -128,6 +126,11 @@ PRODUCT_COPY_FILES += \
 # ANT+
 PRODUCT_PACKAGES += \
     AntHalService
+
+# APEX
+OVERRIDE_PRODUCT_COMPRESSED_APEX := false
+PRODUCT_PACKAGES += com.android.apex.cts.shim.v1_prebuilt
+PRODUCT_VENDOR_PROPERTIES := ro.apex.updatable=true
 
 # Biometrics
 PRODUCT_PACKAGES += \
