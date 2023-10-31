@@ -6,7 +6,7 @@
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     android:allowBackup="false"
-    package="com.android.settings.overlay.evolution">
+    package="com.android.settings.tulip">
 
     <overlay
         android:isStatic="true"
