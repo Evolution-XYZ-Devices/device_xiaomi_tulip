@@ -24,7 +24,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"-->
     <SwitchPreference
-            android:defaultValue="true"
+            android:defaultValue="false"
             android:icon="@drawable/ic_kcal"
             android:key="kcal_enable"
             android:summary="@string/kcal_enable_summary"
