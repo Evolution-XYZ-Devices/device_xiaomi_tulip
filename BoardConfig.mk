@@ -40,7 +40,7 @@ TARGET_SCREEN_DENSITY := 440
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm660
-TARGET_KERNEL_CONFIG += vendor/xiaomi/tulip.config
+TARGET_KERNEL_CONFIG += tulip_defconfig
 
 # Manifest
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/manifest.xml
