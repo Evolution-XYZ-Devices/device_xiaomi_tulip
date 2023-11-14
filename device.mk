@@ -330,8 +330,10 @@ PRODUCT_PACKAGES += \
 # Media
 PRODUCT_PACKAGES += \
     android.hardware.media.c2@1.1.vendor \
+    android.hardware.media.omx@1.0-service \
     libavservices_minijail \
-    libavservices_minijail.vendor
+    libavservices_minijail.vendor \
+    libstagefright_omx.vendor
 
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
