@@ -149,6 +149,7 @@ vendor.display.perf_hint_window=50
 vendor.display.enable_default_color_mode=0
 vendor.display.idle_time=32767
 vendor.gralloc.enable_fb_ubwc=1
+ro.surface_flinger.enable_frame_rate_override=false
 
 # Display Calibration
 ro.vendor.display.ad=1
