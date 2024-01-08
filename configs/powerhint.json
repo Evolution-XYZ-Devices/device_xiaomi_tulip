@@ -99,11 +99,11 @@
       "ResetOnInit": true
     },
     {
-      "Name": "SchedtuneBoost",
-      "Path": "/dev/stune/schedtune.boost",
+      "Name": "SchedBoost",
+      "Path": "/proc/sys/kernel/sched_boost",
       "Values": [
-        "50",
-        "1"
+        "1",
+        "0"
       ],
       "ResetOnInit": true
     },
@@ -117,11 +117,20 @@
       "ResetOnInit": true
     },
     {
+      "Name": "TASchedtuneSchedBoost",
+      "Path": "/dev/stune/top-app/schedtune.sched_boost",
+      "Values": [
+        "15",
+        "10"
+      ],
+      "ResetOnInit": true
+    },
+    {
       "Name": "ForegroundCpuset",
       "Path": "/dev/cpuset/foreground/cpus",
       "Values": [
-        "0-7",
-        "0-3,6-7"
+        "0-5",
+        "0-5,7"
       ],
       "ResetOnInit": true
     },
@@ -297,90 +306,96 @@
       "PowerHint": "INTERACTION",
       "Node": "TASchedtuneBoost",
       "Duration": 0,
-      "Value": "10"
+      "Value": "15"
+    },
+    {
+      "PowerHint": "INTERACTION",
+      "Node": "TASchedtuneSchedBoost",
+      "Duration": 0,
+      "Value": "15"
+    },
+    {
+      "PowerHint": "LAUNCH",
+      "Node": "SchedBoost",
+      "Duration": 5000,
+      "Value": "1"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "ForegroundCpuset",
-      "Duration": 1500,
-      "Value": "0-7"
-    },
-    {
-      "PowerHint": "LAUNCH",
-      "Node": "SchedtuneBoost",
-      "Duration": 1500,
-      "Value": "50"
+      "Duration": 5000,
+      "Value": "0-5"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUBigClusterMaxFreq",
-      "Duration": 1500,
+      "Duration": 5000,
       "Value": "9999999"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUBigClusterMinFreq",
-      "Duration": 1500,
+      "Duration": 5000,
       "Value": "9999999"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPULittleClusterMaxFreq",
-      "Duration": 1500,
+      "Duration": 5000,
       "Value": "9999999"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPULittleClusterMinFreq",
-      "Duration": 1500,
+      "Duration": 5000,
       "Value": "9999999"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "PMQoSCpuDmaLatency",
-      "Duration": 1500,
+      "Duration": 5000,
       "Value": "42"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUBWMinFreq",
-      "Duration": 1500,
+      "Duration": 5000,
       "Value": "6881"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "GPUBWMinFreq",
-      "Duration": 1500,
+      "Duration": 5000,
       "Value": "6881"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "GPUForceClkOn",
-      "Duration": 1500,
+      "Duration": 5000,
       "Value": "1"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "GPUForceRailOn",
-      "Duration": 1500,
+      "Duration": 5000,
       "Value": "1"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "GPUIdleTimer",
-      "Duration": 1500,
+      "Duration": 5000,
       "Value": "10000"
     },
     {
       "PowerHint": "AUDIO_LAUNCH",
       "Node": "CPUBigClusterMinFreq",
-      "Duration": 1500,
+      "Duration": 2000,
       "Value": "1401600"
     },
     {
       "PowerHint": "AUDIO_LAUNCH",
       "Node": "PMQoSCpuDmaLatency",
-      "Duration": 1500,
+      "Duration": 2000,
       "Value": "42"
     },
     {
