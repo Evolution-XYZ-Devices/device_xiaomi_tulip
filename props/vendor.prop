@@ -120,7 +120,6 @@ dalvik.vm.minidebuginfo=false
 dalvik.vm.dex2oat-minidebuginfo=false
 
 # Display
-debug.sf.disable_backpressure=1
 debug.sf.disable_client_composition_cache=1
 debug.sf.use_phase_offsets_as_durations=1
 debug.sf.late.sf.duration=10500000
