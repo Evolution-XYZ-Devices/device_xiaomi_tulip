@@ -1,0 +1,2 @@
+allow hal_power_stats_default sysfs:dir { open read };
+allow hal_power_stats_default sysfs:file { open read };

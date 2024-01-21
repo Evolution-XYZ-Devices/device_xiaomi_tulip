@@ -29,4 +29,6 @@ set_prop(hal_fingerprint_tulip, hal_fingerprint_prop)
 
 dontaudit hal_fingerprint_default storage_file:dir search;
 
-allow hal_fingerprint_tulip rootfs:dir { read };
+allow hal_fingerprint_tulip rootfs:dir { open read };
+allow hal_fingerprint_tulip system_data_root_file:dir { open read };
+dontaudit hal_fingerprint_tulip system_data_root_file:dir { write };

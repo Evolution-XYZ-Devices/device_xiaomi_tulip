@@ -1,0 +1,3 @@
+allow init apex_metadata_file:lnk_file { read };
+
+dontaudit init sysfs:file { write };

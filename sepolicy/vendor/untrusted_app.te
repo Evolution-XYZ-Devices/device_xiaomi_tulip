@@ -1,8 +1,6 @@
 allow untrusted_app sysfs_battery_supply:dir { search };
 dontaudit untrusted_app virtual_ab_prop:file { read };
 
-dontaudit untrusted_app_27 app_data_file:file { execute  execute_no_trans };
-
 dontaudit untrusted_app_29 app_data_file:file { execute };
 dontaudit untrusted_app_29 mnt_sdcard_file:lnk_file { read };
 dontaudit untrusted_app_29 proc_version:file { read };
@@ -11,6 +9,25 @@ dontaudit untrusted_app_29 vendor_persist_camera_prop:file { read };
 
 allow untrusted_app vendor_persist_camera_prop:file { read };
 allow untrusted_app app_data_file:file { execute };
-allow untrusted_app proc_zoneinfo:file { read };
+allow untrusted_app proc_zoneinfo:file { open read getattr };
 allow untrusted_app vendor_persist_camera_prop:file { read };
 allow untrusted_app zygote:unix_stream_socket { getopt };
+
+dontaudit untrusted_app system_lib_file:file { execmod };
+dontaudit untrusted_app proc_version:file { read };
+allow untrusted_app proc_max_map_count:file { open read getattr };
+dontaudit untrusted_app mnt_sdcard_file:lnk_file { read };
+allow untrusted_app rootfs:dir { read };
+allow untrusted_app self:fifo_file { ioctl };
+allow untrusted_app shell_test_data_file:dir { search };
+allow untrusted_app init_exec:lnk_file { getattr };
+allow untrusted_app init_exec:lnk_file { read };
+allow untrusted_app mnt_vendor_file:lnk_file { getattr };
+allow untrusted_app mnt_vendor_file:lnk_file { read };
+allow untrusted_app device:dir { read };
+allow untrusted_app qtaguid_device:chr_file { getattr };
+allow untrusted_app ipa_dev:chr_file { getattr };
+allow untrusted_app metadata_file:dir { search };
+allow untrusted_app metadata_file:dir { read };
+allow untrusted_app configfs:dir { search };
+dontaudit untrusted_app mnt_vendor_file:dir { search };

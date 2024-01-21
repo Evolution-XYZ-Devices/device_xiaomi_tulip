@@ -1,0 +1,1 @@
+dontaudit fsck block_device:blk_file { read write };

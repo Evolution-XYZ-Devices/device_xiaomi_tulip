@@ -1,0 +1,6 @@
+allow untrusted_app_27 shell_test_data_file:dir { search };
+
+dontaudit untrusted_app_27 app_data_file:file { execute execute_no_trans relabelfrom link };
+
+allow untrusted_app_27 sysfs_kgsl:file { getattr };
+allow untrusted_app_27 rootfs:dir { open read };
