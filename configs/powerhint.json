@@ -72,6 +72,17 @@
       "ResetOnInit": true
     },
     {
+      "Name": "GPUMinPWRLevel",
+      "Path": "/sys/class/kgsl/kgsl-3d0/min_pwrlevel",
+      "Values": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "ResetOnInit": true
+    },
+    {
       "Name": "GPUForceRailOn",
       "Path": "/sys/class/kgsl/kgsl-3d0/force_rail_on",
       "Values": [
@@ -427,6 +438,12 @@
       "Node": "GPUMinFreq",
       "Duration": 0,
       "Value": "430000000"
+    },
+    {
+      "PowerHint": "EXPENSIVE_RENDERING",
+      "Node": "GPUMinPWRLevel",
+      "Duration": 0,
+      "Value": "0"
     }
   ]
 }
