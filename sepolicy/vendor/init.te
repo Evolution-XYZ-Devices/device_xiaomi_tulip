@@ -1,3 +1,7 @@
 allow init apex_metadata_file:lnk_file { read };
-
+dontaudit init app_data_file:dir { getattr };
+dontaudit init privapp_data_file:dir { getattr };
+allow init system_app_data_file:dir { getattr relabelfrom };
+allow init seapp_contexts_file:file { open read };
+allow init shell_data_file:dir { relabelfrom };
 dontaudit init sysfs:file { write };
