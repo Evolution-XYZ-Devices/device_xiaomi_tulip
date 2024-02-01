@@ -4,3 +4,4 @@ allow system_server unlabeled:file { write };
 dontaudit system_server sdcardfs:file { read };
 allow system_server blkio:dir { search };
 allow zygote apk_data_file:dir { search };
+allow system_server system_file:file { ioctl };

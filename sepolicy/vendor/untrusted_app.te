@@ -8,7 +8,7 @@ dontaudit untrusted_app_29 proc:file { read };
 dontaudit untrusted_app_29 vendor_persist_camera_prop:file { read };
 
 allow untrusted_app vendor_persist_camera_prop:file { read };
-allow untrusted_app app_data_file:file { execute };
+allow untrusted_app app_data_file:file { execute unlink };
 allow untrusted_app proc_zoneinfo:file { open read getattr };
 allow untrusted_app vendor_persist_camera_prop:file { read };
 allow untrusted_app zygote:unix_stream_socket { getopt };
@@ -27,8 +27,7 @@ allow untrusted_app mnt_vendor_file:lnk_file { read };
 allow untrusted_app device:dir { read };
 allow untrusted_app qtaguid_device:chr_file { getattr };
 allow untrusted_app ipa_dev:chr_file { getattr };
-allow untrusted_app metadata_file:dir { search };
-allow untrusted_app metadata_file:dir { read };
+allow untrusted_app metadata_file:dir { search read getattr };
 allow untrusted_app configfs:dir { search };
 dontaudit untrusted_app mnt_vendor_file:dir { search };
 allow untrusted_app proc_pid_max:file { open read };
@@ -40,6 +39,18 @@ allow untrusted_app postinstall_mnt_dir:dir { getattr };
 allow untrusted_app postinstall_mnt_dir:dir { search };
 allow untrusted_app proc_vmstat:file { getattr };
 allow untrusted_app proc_vmallocinfo:file { getattr };
-allow untrusted_app vendor_firmware_file:dir { getattr };
-dontaudit untrusted_app vendor_file:file { getattr };
+allow untrusted_app vendor_firmware_file:dir { search read getattr };
+dontaudit untrusted_app vendor_file:file { getattr read };
 allow untrusted_app firmware_file:dir { getattr };
+allow untrusted_app sepolicy_file:file { getattr };
+allow untrusted_app cgroup:dir { read };
+dontaudit untrusted_app cgroup:file { getattr };
+dontaudit untrusted_app mnt_sdcard_file:lnk_file { getattr };
+allow untrusted_app mnt_product_file:dir { getattr };
+allow untrusted_app mnt_media_rw_file:dir { getattr };
+allow untrusted_app bt_firmware_file:dir { search read getattr };
+dontaudit untrusted_app proc_tty_drivers:file { read };
+dontaudit untrusted_app serialno_prop:file { read getattr map open };
+
+get_prop(untrusted_app, qemu_hw_prop)
+get_prop(untrusted_app, qemu_sf_lcd_density_prop)

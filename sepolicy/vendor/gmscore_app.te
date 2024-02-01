@@ -1,0 +1,6 @@
+dontaudit gmscore_app mirror_data_file:dir { getattr };
+allow gmscore_app system_dlkm_file:dir { getattr };
+allow gmscore_app mnt_vendor_file:lnk_file { getattr };
+allow gmscore_app linkerconfig_file:dir { getattr };
+allow gmscore_app sepolicy_file:file { getattr };
+allow gmscore_app sepolicy_file:file { read };
