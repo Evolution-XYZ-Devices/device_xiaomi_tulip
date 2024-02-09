@@ -619,4 +619,12 @@
 
     <!-- the number of the max cached processes in the system. -->
     <integer name="config_customizedMaxCachedProcesses">1024</integer>
+
+    <!-- Indicate available ColorDisplayManager.COLOR_MODE_xxx. -->
+    <integer-array name="config_availableColorModes">
+        <item>0</item> <!-- COLOR_MODE_NATURAL -->
+	<item>1</item> <!-- COLOR_MODE_BOOSTED -->
+	<item>2</item> <!-- COLOR_MODE_SATURATED -->
+	<item>3</item> <!-- COLOR_MODE_AUTOMATIC -->
+    </integer-array>
 </resources>
