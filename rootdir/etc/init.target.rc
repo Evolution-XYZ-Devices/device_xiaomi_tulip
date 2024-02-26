@@ -235,6 +235,8 @@ on property:sys.boot_completed=1
     swapon_all /vendor/etc/fstab.zram
     # Stop bootanimation
     stop bootanim
+    # STOP EATING MY BATTERY AFTER 100H OF UPTIME FUCK YOU
+    stop statsd
 
     # write caching
     # Tell the kernel to use up to 99% of the RAM as cache for writes
