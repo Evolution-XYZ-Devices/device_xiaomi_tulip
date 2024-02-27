@@ -7,4 +7,5 @@
 	
     <!-- DerpFest maintainer -->
     <string name="maintainer_name" translatable="false">GhostMaster69-dev</string>
+    <string name="maintainer_telegram" translatable="false">https://t.me/GhostMaster69_dev</string>
 </resources>
