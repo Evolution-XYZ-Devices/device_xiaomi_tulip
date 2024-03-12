@@ -16,7 +16,7 @@ PRODUCT_SHIPPING_API_LEVEL := 27
 PRODUCT_PACKAGES += \
     ApertureOverlay \
     CarrierConfigOverlay \
-    CellBroadcastReceiverOverlay \
+    DeviceCellBroadcastReceiverOverlay \
     FrameworksResOverlay \
     SettingsResOverlay \
     SystemUIResOverlay \

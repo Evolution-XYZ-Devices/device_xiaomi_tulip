@@ -5,8 +5,8 @@
 //
 
 runtime_resource_overlay {
-    name: "CellBroadcastReceiverOverlay",
-    theme: "CellBroadcastReceiverOverlay",
+    name: "DeviceDeviceCellBroadcastReceiverOverlay",
+    theme: "DeviceDeviceCellBroadcastReceiverOverlay",
     sdk_version: "current",
     product_specific: true
 }
