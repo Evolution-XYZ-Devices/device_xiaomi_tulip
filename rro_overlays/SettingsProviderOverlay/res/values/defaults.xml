@@ -23,8 +23,4 @@
 
     <!-- Default for Settings.Secure.LOCK_SCREEN_ALLOW_PRIVATE_NOTIFICATIONS -->
     <bool name="def_lock_screen_allow_private_notifications">false</bool>
-
-    <!-- Speed up the animations -->
-    <fraction name="def_window_animation_scale">50%</fraction>
-    <fraction name="def_window_transition_scale">50%</fraction>
 </resources>
