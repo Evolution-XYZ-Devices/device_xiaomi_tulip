@@ -222,10 +222,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0.vendor
 
-# Google Camera Lite
-PRODUCT_PACKAGES += \
-    GoogleCameraLite
-
 # Google Deskclock permission
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/default-permissions_com.google.android.deskclock.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/default-permissions_com.google.android.deskclock.xml
@@ -248,6 +244,9 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/gps/etc/lowi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lowi.conf \
     $(DEVICE_PATH)/gps/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
     $(DEVICE_PATH)/gps/etc/xtwifi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/xtwifi.conf
+
+# GrapheneOS Camera
+PRODUCT_PACKAGES += GrapheneCamera
 
 # Healthd
 PRODUCT_PACKAGES += \
@@ -365,12 +364,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
-
-# Prebuilt packages
-PRODUCT_PACKAGES += \
-    MlkitBarcodeUI \
-    VisionBarcode \
-    QRCameraOverlay
 
 # Protobuf
 PRODUCT_PACKAGES += \
