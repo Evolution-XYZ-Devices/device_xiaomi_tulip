@@ -84,7 +84,6 @@
         <item>"/system/framework/services.jar"</item>
         <item>"/apex/com.android.art/javalib/core-oj.jar"</item>
         <item>"/apex/com.android.art/javalib/core-libart.jar"</item>
-        <item>"/system_ext/priv-app/DerpLauncherQuickStep/DerpLauncherQuickStep.apk"</item>
         <item>"/system_ext/priv-app/SettingsGoogle/SettingsGoogle.apk</item>
         <item>"/system_ext/priv-app/SystemUIGoogle/SystemUIGoogle.apk"</item>
         <item>"/system/lib64/libRScpp.so"</item>

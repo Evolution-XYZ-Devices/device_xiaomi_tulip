@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_tulip.mk
+    $(LOCAL_DIR)/evolution_tulip.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_tulip-user \
-    derp_tulip-userdebug \
-    derp_tulip-eng
+    evolution_tulip-user \
+    evolution_tulip-userdebug \
+    evolution_tulip-eng
