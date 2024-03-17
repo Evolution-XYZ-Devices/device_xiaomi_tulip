@@ -4,7 +4,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := RemovePkgs
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
-LOCAL_OVERRIDES_PACKAGES := NfcNci NoCutoutOverlay SafetyHubPrebuilt ScribePrebuilt SoundAmplifierPrebuilt TagGoogle talkback TurboPrebuilt UdfpsAnimations
+LOCAL_OVERRIDES_PACKAGES := NfcNci NoCutoutOverlay UdfpsAnimations
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_SRC_FILES := /dev/null
