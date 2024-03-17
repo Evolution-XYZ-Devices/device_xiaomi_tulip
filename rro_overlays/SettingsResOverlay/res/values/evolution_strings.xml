@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2023 Evolution X
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	
+    <!-- Evolution X maintainer -->
+    <string name="build_maintainer_summary" translatable="false">Le Hong Duc</string>
+    <string name="build_maintainer_telegram" translatable="false">https://t.me/tedomi2705</string>
+</resources>
