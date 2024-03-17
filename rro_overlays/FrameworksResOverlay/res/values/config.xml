@@ -616,7 +616,7 @@
     <integer name="config_wakeUpDelayDoze">32</integer>
 
     <!-- Default component for QR code scanner -->
-    <string name="config_defaultQrCodeComponent" translatable="false">app.grapheneos.camera/app.grapheneos.camera.ui.activities.QrTile</string>
+    <string name="config_defaultQrCodeComponent" translatable="false">com.google.android.gms/.mlkit.barcode.ui.PlatformBarcodeScanningActivityProxy</string>
 
     <!-- The name of the package that will hold the assistant role by default. -->
     <string name="config_defaultAssistant" translatable="false">com.google.android.googlequicksearchbox</string>
