@@ -1,0 +1,16 @@
+# fastboot-info for tulip
+version 1
+
+flash boot
+
+update-super
+
+flash odm
+flash product
+flash system
+flash system_ext
+flash vendor
+
+if-wipe erase cache
+if-wipe erase userdata
+if-wipe erase logdump
