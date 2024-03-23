@@ -141,7 +141,6 @@ dev.pm.dyn_samplingrate=1
 persist.sys.sf.color_saturation=1.0
 persist.sys.sf.native_mode=1
 ro.vendor.display.cabl=0
-sdm.debug.disable_skip_validate=1
 vendor.display.disable_metadata_dynamic_fps=1
 vendor.display.disable_partial_split=1
 vendor.display.disable_rotator_downscale=1
@@ -193,9 +192,6 @@ media.stagefright.thumbnail.prefer_hw_codecs=true
 vendor.vidc.dec.enable.downscalar=1
 vendor.vidc.enc.disable_bframes=1
 vendor.vidc.enc.disable.pq=true
-
-# NTP Server
-persist.backup.ntpServer="0.pool.ntp.org"
 
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so

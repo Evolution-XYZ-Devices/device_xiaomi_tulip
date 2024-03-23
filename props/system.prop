@@ -10,11 +10,17 @@ persist.vendor.cne.feature=1
 # Dalvik
 dalvik.vm.dex2oat64.enabled=true
 
+# Display
+sdm.debug.disable_skip_validate=1
+
 # Dex2oat
 ro.sys.fw.dex2oat_thread_count=8
 
 # Netflix
 ro.netflix.bsp_rev=Q660-13149-1
+
+# NTP Server
+persist.backup.ntpServer="0.pool.ntp.org"
 
 # Phantom process monitoring
 persist.sys.fflag.override.settings_enable_monitor_phantom_procs=false
