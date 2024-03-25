@@ -110,7 +110,7 @@
         <item>"/vendor/lib64/egl/libQTapGLES.so"</item>
         <item>"/vendor/lib64/egl/libq3dtools_adreno.so"</item>
         <item>"/vendor/lib64/egl/libq3dtools_esx.so"</item>
-        <item>"/vendor/lib64/hw/vulkan.adreno.so"</item>
+        <item>"/vendor/lib64/hw/vulkan.sdm660.so"</item>
         <item>"/vendor/lib64/libC2D2.so"</item>
         <item>"/vendor/lib64/libCB.so"</item>
         <item>"/vendor/lib64/libOpenCL.so"</item>
