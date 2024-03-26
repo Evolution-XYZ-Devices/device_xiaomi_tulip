@@ -47,4 +47,4 @@
 /persist(/.*)?                                  u:object_r:mnt_vendor_file:s0
 
 # Thermal
-/(vendor|system/vendor)/bin/hw/android\.hardware\.thermal@2\.0-service\.qti            u:object_r:hal_thermal_default_exec:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.thermal@2\.0-service\.mock            u:object_r:hal_thermal_default_exec:s0
