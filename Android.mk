@@ -116,14 +116,6 @@ $(IMS_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
 
 ALL_DEFAULT_INSTALLED_MODULES += $(IMS_SYMLINKS)
 
-METADATA_SYMLINK := $(TARGET_ROOT_OUT)/metadata
-$(METADATA_SYMLINK): $(LOCAL_INSTALLED_MODULE)
-	@echo "Creating $@"
-	@mkdir -p $(TARGET_ROOT_OUT)/metadata
-	$(hide) ln -sf /data/vendor/metadata_apex $@/apex
-
-ALL_DEFAULT_INSTALLED_MODULES += $(METADATA_SYMLINK)
-
 CNE_LIBS := libvndfwk_detect_jni.qti.so
 CNE_SYMLINKS := $(addprefix $(TARGET_OUT_VENDOR)/app/CneApp/lib/arm64/,$(notdir $(CNE_LIBS)))
 $(CNE_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
