@@ -625,7 +625,7 @@
 	without explicit consent of the user. If no autofill service with the
 	specified name exists on the device, autofill will be disabled by default.
     -->
-    <string name="config_defaultAutofillService" translatable="false">com.google.android.gms/.autofill.service.AutofillService</string>
+    <string name="config_defaultAutofillService" translatable="false">com.google.android.gms/com.google.android.gms.autofill.service.AutofillService</string>
 
     <!-- Feature flag to store TaskSnapshot in 16 bit pixel format to save memory. -->
     <bool name="config_use16BitTaskSnapshotPixelFormat">true</bool>
