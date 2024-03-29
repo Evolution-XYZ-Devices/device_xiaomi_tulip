@@ -14,9 +14,6 @@ $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 # Inherit from tulip device
 $(call inherit-product, device/xiaomi/tulip/device.mk)
 
-# Pixel customization
-TARGET_SUPPORTS_GOOGLE_RECORDER := false
-
 # Disable blurs
 TARGET_NOT_USES_BLUR := true
 
