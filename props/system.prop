@@ -19,9 +19,6 @@ ro.netflix.bsp_rev=Q660-13149-1
 # NTP Server
 persist.backup.ntpServer="0.pool.ntp.org"
 
-# Phantom process monitoring
-persist.sys.fflag.override.settings_enable_monitor_phantom_procs=false
-
 # Radio
 ril.subscription.types=NV,RUIM
 telephony.lteOnCdmaDevice=1
