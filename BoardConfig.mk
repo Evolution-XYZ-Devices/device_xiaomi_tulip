@@ -54,7 +54,7 @@ BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_VERSION := 4.4
 TARGET_KERNEL_SOURCE := kernel/xiaomi/tulip
-TARGET_KERNEL_CONFIG := tulip_defconfig kernelsu.config
+TARGET_KERNEL_CONFIG := tulip_defconfig
 
 # QCOM hardware
 BOARD_USES_QCOM_HARDWARE := true
