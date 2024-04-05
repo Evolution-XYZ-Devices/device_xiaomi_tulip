@@ -560,9 +560,9 @@
          appearance of the cutout as much as possible, and may be smaller than
          config_mainBuiltInDisplayCutout -->
     <string translatable="false" name="config_mainBuiltInDisplayCutoutRectApproximation">
-        M 276.86,88
+        M 276.86,94
         H -276.87
-        V 8
+        V 0
         H 276.86
         Z
     </string>
