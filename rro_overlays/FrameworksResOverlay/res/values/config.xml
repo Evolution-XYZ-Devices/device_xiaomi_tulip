@@ -84,8 +84,6 @@
         <item>"/system/framework/services.jar"</item>
         <item>"/apex/com.android.art/javalib/core-oj.jar"</item>
         <item>"/apex/com.android.art/javalib/core-libart.jar"</item>
-        <item>"/system_ext/priv-app/TrebuchetQuickStep/TrebuchetQuickStep.apk</item>
-        <item>"/system_ext/priv-app/Settings/Settings.apk</item>
         <item>"/system_ext/priv-app/SystemUI/SystemUI.apk"</item>
         <item>"/system/lib64/libRS.so"</item>
         <item>"/system/lib64/libRS_internal.so"</item>
