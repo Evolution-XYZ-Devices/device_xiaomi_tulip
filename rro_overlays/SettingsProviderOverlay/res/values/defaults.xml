@@ -17,10 +17,6 @@
  */
 -->
 <resources>
-
-    <!-- haptic feedback -->
-    <bool name="def_haptic_feedback">false</bool>
-
     <!-- Default for Settings.Secure.LOCK_SCREEN_ALLOW_PRIVATE_NOTIFICATIONS -->
     <bool name="def_lock_screen_allow_private_notifications">false</bool>
 </resources>
